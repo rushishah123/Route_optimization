@@ -53,9 +53,11 @@ def enrich_patient_phlebotomist_fields(
         join_col = "PhlebotomistID.1"
     elif "AssignedPhlebID" in patients.columns:
         join_col = "AssignedPhlebID"
+    elif "PhlebotomistID" in patients.columns:
+        join_col = "PhlebotomistID"
     else:
         logger.warning(
-            "No PhlebotomistID.1 or AssignedPhlebID column present; cannot merge phlebotomist metadata"
+            "No PhlebotomistID.1, AssignedPhlebID or PhlebotomistID column present; cannot merge phlebotomist metadata"
         )
         return patients
 
