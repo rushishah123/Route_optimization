@@ -174,7 +174,8 @@ def save_assignment_results_with_cache(assignment_map, assigned_phlebs, assigned
         assigned_patients,
         date,
         city,
-        use_scheduled_time
+        use_scheduled_time,
+        phleb_df=st.session_state.phleb_df,
     )
     
     # Then save to cache
@@ -313,7 +314,8 @@ def display_results():
                     st.session_state.assigned_patients,
                     date,
                     city,
-                    st.session_state.use_scheduled_time
+                    st.session_state.use_scheduled_time,
+                    phleb_df=st.session_state.phleb_df,
                 )
                 logger.info(f"Saved assignment results to files: {st.session_state.saved_files}")
         
@@ -399,7 +401,8 @@ def load_history_item(date, city):
                 st.session_state.assigned_patients,
                 date,
                 city,
-                st.session_state.use_scheduled_time
+                st.session_state.use_scheduled_time,
+                phleb_df=st.session_state.phleb_df,
             )
             st.session_state.saved_files = saved_files
         except Exception as e:
