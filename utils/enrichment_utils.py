@@ -11,9 +11,14 @@ def enrich_patient_phlebotomist_fields(
 ) -> pd.DataFrame:
     """Fill missing phlebotomist related fields on patient records.
 
-    Only updates fields that are null. Uses phleb_df metadata matched by
-    ``AssignedPhlebID`` on the patient record and ``PhlebotomistID.1`` on the
-    phlebotomist dataframe.
+    Only updates fields that are null. It matches patient rows to
+    ``phleb_df`` using the phlebotomist ID column present on the patient
+    dataframe.  Most raw trip exports label this column ``PhlebotomistID.1``
+    while some assignment routines may add an ``AssignedPhlebID`` column.
+    Whichever of these columns exists will be used for the merge.
+
+    The phlebotomist dataframe always uses ``PhlebotomistID.1`` as the
+    unique identifier.
 
     Parameters
     ----------
@@ -43,6 +48,19 @@ def enrich_patient_phlebotomist_fields(
 
     patients = patient_df.copy()
 
+    # Determine which column to use for joining with phlebotomist metadata.
+    if "PhlebotomistID.1" in patients.columns:
+        join_col = "PhlebotomistID.1"
+    elif "AssignedPhlebID" in patients.columns:
+        join_col = "AssignedPhlebID"
+    else:
+        logger.warning(
+            "No PhlebotomistID.1 or AssignedPhlebID column present; cannot merge phlebotomist metadata"
+        )
+        return patients
+
+    patients["_join_phlebid"] = patients[join_col].astype(str)
+
     # Prepare phlebotomist dataframe for merge
     phleb_merge = phleb_df.copy()
     phleb_merge = phleb_merge.rename(
@@ -51,7 +69,7 @@ def enrich_patient_phlebotomist_fields(
             "City": "PhlebotmistCity",
         }
     )
-    phleb_merge["AssignedPhlebID"] = phleb_merge["PhlebotomistID"].astype(str)
+    phleb_merge["_join_phlebid"] = phleb_merge["PhlebotomistID"].astype(str)
 
     # Determine which target fields exist on the patient dataframe
     target_fields = [
@@ -67,13 +85,13 @@ def enrich_patient_phlebotomist_fields(
     existing_fields = [c for c in target_fields if c in patients.columns]
 
     # Merge only columns present in both dataframes
-    merge_cols = ["AssignedPhlebID"]
+    merge_cols = ["_join_phlebid"]
     for col in existing_fields:
         if col in phleb_merge.columns:
             merge_cols.append(col)
     patients = patients.merge(
         phleb_merge[merge_cols],
-        on="AssignedPhlebID",
+        on="_join_phlebid",
         how="left",
         suffixes=("", "_phleb"),
     )
@@ -97,10 +115,10 @@ def enrich_patient_phlebotomist_fields(
             valid_mask = name_vals.apply(
                 lambda x: bool(valid_name_regex.fullmatch(str(x))) and x not in duplicate_names
             )
-            invalid_rows = patients.loc[mask & ~valid_mask, ["AssignedPhlebID", col_phleb]]
+            invalid_rows = patients.loc[mask & ~valid_mask, ["_join_phlebid", col_phleb]]
             for _, row in invalid_rows.iterrows():
                 logger.info(
-                    f"Skipped name for PhlebID {row['AssignedPhlebID']} -> {row[col_phleb]}"
+                    f"Skipped name for PhlebID {row['_join_phlebid']} -> {row[col_phleb]}"
                 )
             patients.loc[mask & valid_mask, col] = name_vals[valid_mask]
         else:
@@ -115,6 +133,9 @@ def enrich_patient_phlebotomist_fields(
     # Drop helper columns
     drop_cols = [c for c in patients.columns if c.endswith("_phleb")]
     patients = patients.drop(columns=drop_cols, errors="ignore")
+
+    # Remove temporary join column
+    patients = patients.drop(columns=["_join_phlebid"], errors="ignore")
 
     # Remove assignment specific columns to retain original schema
     extraneous_cols = [
