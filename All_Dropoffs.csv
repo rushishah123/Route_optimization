@@ -1,0 +1,425 @@
+LabID,Clinic,Address,City,State,Zipcode,Latitude,Longitude
+LabCorp001,LabCorp,"Labcorp, 121 River St, Hoboken, NJ 07030",Hoboken,NJ,7030,40.73816869879691,-74.02827528322184
+LabCorp002,LabCorp,"Labcorp, 59 NEWARK ST, Lower Level, HOBOKEN, NJ 07030",Hoboken,NJ,7030,40.73648546566723,-74.03089295972408
+LabCorp003,LabCorp,"Labcorp, 3131 Kennedy Blvd, Columbia Park, North Bergen, NJ 07047",North Bergen,NJ,7047,40.77505907121755,-74.03635875842308
+LabCorp004,LabCorp,"Labcorp, 111 3rd Ave, Apt, New York, NY 10003",New York,NY,10003,40.732911767898514,-73.9872182083386
+LabCorp005,LabCorp,"Labcorp, 65 Broadway, Ste 905, New York, NY 10006",New York,NY,10006,40.70720222587683,-74.01240079507372
+LabCorp006,LabCorp,"Labcorp, 120 9th Ave, New York, NY 10011",New York,NY,10011,40.74312639906451,-74.00358589545364
+LabCorp007,LabCorp,"Labcorp, 139 Centre St, Ste 807, New York, NY 10013",New York,NY,10013,40.71755050269526,-74.00081446014477
+LabCorp008,LabCorp,"Labcorp, 425 W 59th St, Ste 1A, New York, NY 10019",New York,NY,10019,40.76997878755136,-73.98598445105175
+LabCorp009,LabCorp,"Labcorp, 1317 3RD AVE, 3RD FLR, NEW YORK, NY 10021",New York,NY,10021,40.77188878307482,-73.95866155090997
+LabCorp010,LabCorp,"Labcorp, 115 E 57th St, Ste 620, New York, NY 10022",New York,NY,10022,40.76152890506576,-73.96989595492472
+LabCorp011,LabCorp,"Labcorp, 115 Central Park W, Apt 10, New York, NY 10023",New York,NY,10023,40.77607245264919,-73.97632318375815
+LabCorp012,LabCorp,"Labcorp, 1090 Amsterdam Ave, Frnt, New York, NY 10025",New York,NY,10025,40.805492961445154,-73.9625009423637
+LabCorp013,LabCorp,"Labcorp, 535 W 110th St, Apt 1J, New York, NY 10025",New York,NY,10025,40.80402714207571,-73.96556956256424
+LabCorp014,LabCorp,"Labcorp, 5 E 98th St, #, New York, NY 10029",New York,NY,10029,40.78908588665206,-73.95386268006617
+LabCorp015,LabCorp,"Labcorp, 177 E 87th St, New York, NY 10128",New York,NY,10128,40.77991484786872,-73.95361282686852
+LabCorp016,LabCorp,"Labcorp, 70 E 90th St, # 2, New York, NY 10128",New York,NY,10128,40.78305623690899,-73.95677028191952
+LabCorp017,LabCorp,"Labcorp, 1201 Main St, Peekskill, NY 10566",Peekskill,NY,10566,41.29161815262231,-73.91439446082865
+LabCorp018,LabCorp,"Labcorp, 162 Wildey St, Tarrytown, NY 10591",Tarrytown,NY,10591,41.0790651168529,-73.86349970061676
+LabCorp019,LabCorp,"Labcorp, 222 Route 59, Ste 202, Suffern, NY 10901",Suffern,NY,10901,41.11267659472053,-74.11178275765799
+LabCorp020,LabCorp,"Labcorp, 3 Coates Dr, Goshen, NY 10924",Goshen,NY,10924,41.39075047632977,-74.3363487272666
+LabCorp021,LabCorp,"Labcorp, 1219 Dolsontown Rd, Middletown, NY 10940",Middletown,NY,10940,41.424948695692976,-74.40936710687852
+LabCorp022,LabCorp,"Labcorp, 36 College Avenue, LL, NANUET, NY 10954",Nanuet,NY,10954,41.094913438850135,-74.00762559775451
+LabCorp023,LabCorp,"Labcorp, 31 Cavalry Dr, New City, NY 10956",New City,NY,10956,41.15484484708889,-73.98584377747082
+LabCorp024,LabCorp,"Labcorp, 1540 Route 202, Ste 6, Pomona, NY 10970",Pomona,NY,10970,41.18264540505238,-74.05355589710882
+LabCorp025,LabCorp,"Labcorp, 2 Liberty Square Mall, Stony Point, NY 10980",Stony Point,NY,10980,41.22172291770804,-73.98593406850631
+LabCorp026,LabCorp,"Labcorp, 4701 Queens Blvd, Ste, Sunnyside, NY 11104",Sunnyside,NY,11104,40.74344880765645,-73.91737912661043
+LabCorp027,LabCorp,"Labcorp, 25 Chapel St, Libby 1, Brooklyn, NY 11201",Brooklyn,NY,11201,40.697418456962026,-73.9860403838505
+LabCorp028,LabCorp,"Labcorp, 7535 31st Ave, Ste 200, East Elmhurst, NY 11370",East Elmhurst,NY,11370,40.75963656925054,-73.89224768638611
+LabCorp029,LabCorp,"Labcorp, 330 Washington Ave, Kingston, NY 12401",Kingston,NY,12401,41.93396484154679,-74.0242832630835
+LabCorp030,LabCorp,"Labcorp, 367 BROADWAY, Suite 367B, KINGSTON, NY 12401",Kingston,NY,12401,41.92576404167812,-73.99458584025595
+LabCorp031,LabCorp,"Labcorp, 200 Westage Business Ctr Dr, Ste 133, Fishkill, NY 12524",Fishkill,NY,12524,41.52734686621742,-73.89684563004191
+LabCorp032,LabCorp,"Labcorp, 222 State Route 299, #, Highland, NY 12528",Highland,NY,12528,41.74319583271024,-73.99615460615324
+LabCorp033,LabCorp,"Labcorp, 5 HUDSON VALLEY PROFESS PLAZA, NEWBURGH, NY 12550",Newburgh,NY,12550,41.52010815863651,-74.03161830905918
+LabCorp034,LabCorp,"Labcorp, 448 Temple Hill Rd, New Windsor, NY 12553",New Windsor,NY,12553,41.47822266280807,-74.0624822861633
+LabCorp035,LabCorp,"Labcorp, 279 MAIN ST STE 200, NEW PALTZ, NY 12561",New Paltz,NY,12561,41.74347217769102,-74.06811889870482
+LabCorp036,LabCorp,"Labcorp, 6565 Spring Brook Ave, Rhinebeck, NY 12572",Rhinebeck,NY,12572,41.93743709705514,-73.90999092272762
+LabCorp037,LabCorp,"Labcorp, 207 Washington St, Poughkeepsie, NY 12601",Poughkeepsie,NY,12601,41.715904763195454,-73.9289526437509
+LabCorp038,LabCorp,"Labcorp, 27 Fox St, Poughkeepsie, NY 12601",Poughkeepsie,NY,12601,41.69159198906196,-73.934814298874
+LabCorp039,LabCorp,"Labcorp, 827 Dutchess Tpke, Poughkeepsie, NY 12603",Poughkeepsie,NY,12603,41.70294659885791,-73.87171511639475
+LabCorp040,LabCorp,"Labcorp, 2233 Wisconsin Ave NW, Ste 425, Washington DC 20007",Ste 425,Washington,20007,38.91994310095396,-77.07074432324457
+LabCorp041,LabCorp,"Labcorp, 8640 Sudley Rd, Ste 113, Manassas, VA 20110",Manassas,VA,20110,38.7678917597773,-77.48929512460955
+LabCorp042,LabCorp,"Labcorp, 8609 Sudley Rd, Ste 104, Manassas, VA 20110",Manassas,VA,20110,38.769767285978304,-77.4877139258609
+LabCorp043,LabCorp,"Labcorp, 20321 Susan Leslie Dr, Ashburn, VA 20147",Ashburn,VA,20147,39.05411394788274,-77.48735293167717
+LabCorp044,LabCorp,"Labcorp, 43490 Yukon Dr, Suite 112, Ashburn, VA 20147",Ashburn,VA,20147,39.00945193340721,-77.49362187028142
+LabCorp045,LabCorp,"Labcorp, 21475 Ridgetop Cir, Ste 110, Sterling, VA 20166",Sterling,VA,20166,39.03196487517544,-77.40777406079711
+LabCorp046,LabCorp,"Labcorp, 24430 Stone Springs Blvd #240, Sterling, VA 20166",Sterling,VA,20166,38.9403106510255,-77.54349584908726
+LabCorp047,LabCorp,"Labcorp, 222 Catoctin Cir SE, Ste 100, Leesburg, VA 20175",Leesburg,VA,20175,39.10997604414098,-77.5565224217316
+LabCorp048,LabCorp,"Labcorp, 5530 Wisconsin Ave, Ste 705, Chevy Chase, MD 20815",Chevy Chase,MD,20815,38.96498433373251,-77.0882033742934
+LabCorp049,LabCorp,"Labcorp, 10215 Fernwood Rd, Ste 300, Bethesda, MD 20817",Bethesda,MD,20817,39.02408807674156,-77.13459026813011
+LabCorp050,LabCorp,"Labcorp, 9711 Medical Center Dr, Ste 222, Rockville, MD 20850",Rockville,MD,20850,39.09981915478526,-77.19767828296432
+LabCorp051,LabCorp,"Labcorp, 15005 Shady Grove Rd, Ste 130, Rockville, MD 20850",Rockville,MD,20850,39.10248824358892,-77.19026602473195
+LabCorp052,LabCorp,"Labcorp, 15225 Shady Grove Rd, Ste 204, Rockville, MD 20850",Rockville,MD,20850,39.10686162146343,-77.1888485082745
+LabCorp053,LabCorp,"Labcorp, 11119 Rockville Pike, Ste G101, Rockville, MD 20852",Rockville,MD,20852,39.03922505488297,-77.10830966754371
+LabCorp054,LabCorp,"Labcorp, 814 W Diamond Ave, Ste 105, Gaithersburg, MD 20878",Gaithersburg,MD,20878,39.14334825657093,-77.21614896063677
+LabCorp055,LabCorp,"Labcorp, 3028 Javier Rd, Ste 100, Fairfax, VA 22031",Fairfax,VA,22031,38.86665707556559,-77.2355920597271
+LabCorp056,LabCorp,"Labcorp, 8503 Arlington Blvd, Ste 350, Fairfax, VA 22031",Fairfax,VA,22031,38.86485743329441,-77.23932029543496
+LabCorp057,LabCorp,"Labcorp, 4001 Fair Ridge Dr, Ste 200, Fairfax, VA 22033",Fairfax,VA,22033,38.87086450470876,-77.36673941088111
+LabCorp058,LabCorp,"Labcorp, 8130 Boone Blvd, Suite 320, Vienna, VA 22182",Vienna,VA,22182,38.91409385358487,-77.22645417989877
+LabCorp059,LabCorp,"Labcorp, 1005 N Glebe Rd, Ste 140, Arlington, VA 22201",Arlington,VA,22201,38.88313560413031,-77.11558812786278
+LabCorp060,LabCorp,"Labcorp, 2420 E Colonial Dr, Orlando, FL 32803",Orlando,FL,32803,28.552845026797964,-81.35131547644998
+LabCorp061,LabCorp,"Labcorp, 4401 S Orange Ave, Ste 110, Orlando, FL 32806",Orlando,FL,32806,28.49628135484793,-81.3739688152851
+LabCorp062,LabCorp,"Labcorp, 7300 Sandlake Commons Blvd, Ste 205, Orlando, FL 32819",Orlando,FL,32819,28.43040809458992,-81.4788948922305
+LabCorp063,LabCorp,"Labcorp, 5425 S Semoran Blvd, Orlando, FL 32822",Orlando,FL,32822,28.483771949852333,-81.30940277199072
+LabCorp064,LabCorp,"Labcorp, 10425 Narcoosee Rd, Orlando, FL 32832",Orlando,FL,32832,28.4151203409989,-81.24228106621922
+LabCorp065,LabCorp,"Labcorp, 3990 Sheridan St, Hollywood, FL 33021",Hollywood,FL,33021,26.032609484056145,-80.18364810537037
+LabCorp066,LabCorp,"Labcorp, 9005 Pines Blvd, Hollywood, FL 33024",Hollywood,FL,33024,26.00955805296972,-80.26435520352308
+LabCorp067,LabCorp,"Labcorp, 8001 Miramar Pkwy, Hollywood, FL 33025",Hollywood,FL,33025,25.98247218877077,-80.24773497284043
+LabCorp068,LabCorp,"Labcorp, 201 N Hiatus Rd, Hollywood, FL 33026",Hollywood,FL,33026,26.009912390625644,-80.29579028592279
+LabCorp069,LabCorp,"Labcorp, 3000 N State Road 7, Margate, FL 33063",Margate,FL,33063,26.26698919706289,-80.20092186118765
+LabCorp070,LabCorp,"Labcorp, 10350 Royal Palm Blvd, Coral Springs, FL 33065",Coral Springs,FL,33065,26.25865158070059,-80.26312361885871
+LabCorp071,LabCorp,"Labcorp, 19935 NW 2nd Ave, Miami, FL 33169",Miami,FL,33169,25.95797211366396,-80.20272690393215
+LabCorp072,LabCorp,"Labcorp, 2801 NE 213th St, Suite 1110, Aventura, FL 33180",Aventura,FL,33180,25.973213891161365,-80.14580098818229
+LabCorp073,LabCorp,"Labcorp, 3465 Galt Ocean Dr, Suite 201, Fort Lauderdale, FL 33308",Fort Lauderdale,FL,33308,26.170038216379343,-80.0993914565451
+LabCorp074,LabCorp,"Labcorp, 3099 N State Road 7, Lauderdale Lakes, FL 33313",Lauderdale Lakes,FL,33313,26.16451770902233,-80.2039344133174
+LabCorp075,LabCorp,"Labcorp, 7431 N University Dr, Ste 209, Tamarac, FL 33321",Tamarac,FL,33321,26.213296413282244,-80.255596361189
+LabCorp076,LabCorp,"Labcorp, 1780 N University Dr, Plantation, FL 33322",Plantation,FL,33322,26.14808415547921,-80.25628576119053
+LabCorp077,LabCorp,"Labcorp, 181 N University Dr, Plantation, FL 33324",Plantation,FL,33324,26.123071169264858,-80.25450610352037
+LabCorp078,LabCorp,"Labcorp, 13628 W State Road 84, Davie, FL 33325",Davie,FL,33325,26.117940310193493,-80.33076654584971
+LabCorp079,LabCorp,"Labcorp, 2731 Executive Park Dr, Ste 5, Weston, FL 33331",Weston,FL,33331,26.08447612652671,-80.37420499002751
+LabCorp080,LabCorp,"Labcorp, 830 E Oakland Park Blvd, Suite 121, Oakland Park, FL 33334",Oakland Park,FL,33334,26.16585003066078,-80.13616183174732
+LabCorp081,LabCorp,"Labcorp, 900 Glades Rd, Ste 1B, Boca Raton, FL 33431",Boca Raton,FL,33431,26.364598544623604,-80.10500384769152
+LabCorp082,LabCorp,"Labcorp, 7301 W Palmetto Park Rd Ste 101B, Boca Raton, FL 33433",Boca Raton,FL,33433,26.35116598533677,-80.15957779002107
+LabCorp083,LabCorp,"Labcorp, 3003 W Yamato Rd, Boca Raton, FL 33434",Boca Raton,FL,33434,26.39615577213494,-80.14712403419695
+LabCorp084,LabCorp,"Labcorp, 1005 S Federal Hwy, Deerfield Beach, FL 33441",Deerfield Beach,FL,33441,26.30471540932707,-80.09380037652835
+LabCorp085,LabCorp,"Labcorp, 11928 Boyette Rd, Riverview, FL 33569",Riverview,FL,33569,27.854580855548644,-82.30079793991496
+LabCorp086,LabCorp,"Labcorp, 3851 4th St N, Saint Petersburg, FL 33703",Saint Petersburg,FL,33703,27.807330748038247,-82.63735264566974
+LabCorp087,LabCorp,"Labcorp, 3901 66th St N, Saint Petersburg, FL 33709",Saint Petersburg,FL,33709,27.807625328574755,-82.7282371297001
+LabCorp088,LabCorp,"Labcorp, 900 49th St N, Saint Petersburg, FL 33710",Saint Petersburg,FL,33710,27.78144122595592,-82.70066396982944
+LabCorp089,LabCorp,"Labcorp, 3077 54th Ave S, Saint Petersburg, FL 33712",Saint Petersburg,FL,33712,27.719792976436977,-82.67362113425088
+LabCorp090,LabCorp,"Labcorp, 501 Havendale Blvd, Auburndale, FL 33823",Auburndale,FL,33823,28.054221569089712,-81.77574755604905
+LabCorp091,LabCorp,"Labcorp, 108 Park Place Blvd, Davenport, FL 33837",Davenport,FL,33837,28.183827434986497,-81.64160396598926
+LabCorp092,LabCorp,"Labcorp, 2209 North Blvd W, Ste B, Davenport, FL 33837",Davenport,FL,33837,28.163471233354308,-81.63831942966533
+LabCorp093,LabCorp,"Labcorp, 24170 Hwy 27, Lake Wales, FL 33859",Lake Wales,FL,33859,27.957623060894296,-81.62311644159665
+LabCorp094,LabCorp,"Labcorp, 805 Havendale Blvd NW, Winter Haven, FL 33881",Winter Haven,FL,33881,28.04460469852983,-81.73567622482265
+LabCorp095,LabCorp,"Labcorp, 25097 E Olympia Ave, Ste 206, Punta Gorda, FL 33950",Punta Gorda,FL,33950,26.940199371598123,-82.03671919607913
+LabCorp096,LabCorp,"Labcorp, 2811 Tamiami Tri, Ste F, Port Charlotte, FL 33952",Port Charlotte,FL,33952,26.9888661672816,-82.10960157863154
+LabCorp097,LabCorp,"Labcorp, 6060 53rd Ave E, Unit C, Bradenton, FL 34203",Bradenton,FL,34203,27.44461170941314,-82.48375586915282
+LabCorp098,LabCorp,"Labcorp, 4220 Manatee Ave W, Bradenton, FL 34205",Bradenton,FL,34205,27.49636886749302,-82.60335411720413
+LabCorp099,LabCorp,"Labcorp, 2902 59th St W, Bradenton, FL 34209",Bradenton,FL,34209,27.47462721040944,-82.62110379508371
+LabCorp100,LabCorp,"Labcorp, 930 8th Ave W, Palmetto, FL 34221",Palmetto,FL,34221,27.52061433261509,-82.57243311628136
+LabCorp101,LabCorp,"Labcorp, 7915 US Highway 301 N, Ellenton, FL 34222",Ellenton,FL,34222,27.53896104812653,-82.4829987366642
+LabCorp102,LabCorp,"Labcorp, 693 Old Englewood Rd, Ste C, Englewood, FL 34223",Englewood,FL,34223,26.974568545799183,-82.36735974275918
+LabCorp103,LabCorp,"Labcorp, 5800 Bee Ridge Rd, Sarasota, FL 34233",Sarasota,FL,34233,27.29793239062641,-82.45528609249372
+LabCorp104,LabCorp,"Labcorp, 1224 S Tamiami Tri, Sarasota, FL 34239",Sarasota,FL,34239,27.322500704202227,-82.5303334534458
+LabCorp105,LabCorp,"Labcorp, 2449 Bee Ridge Rd, Sarasota, FL 34239",Sarasota,FL,34239,27.29920180772362,-82.52082642543404
+LabCorp106,LabCorp,"Labcorp, 8451 Shade Ave Bldg 2 Ste 109, Sarasota, FL 34243",Sarasota,FL,34243,27.39046442110524,-82.52146400640518
+LabCorp107,LabCorp,"Labcorp, 333 Tamiami Tri S, Ste 173, Venice, FL 34285",Venice,FL,34285,27.094840375855128,-82.44349139155442
+LabCorp108,LabCorp,"Labcorp, 14816 S Tamiami Trl, Suite A-108, North Port, FL 34287",North Port,FL,34287,27.03943880352339,-82.22663726116859
+LabCorp109,LabCorp,"Labcorp, 820 N John Young Pkwy, Kissimmee, FL 34741",Kissimmee,FL,34741,28.299714306645736,-81.416891260316
+LabCorp110,LabCorp,"Labcorp, 1178 Cypress Glenn Circle, Kissimmee, FL 34741",Kissimmee,FL,34741,28.34611559548991,-81.41590986094697
+LabCorp111,LabCorp,"Labcorp, 395 N Main St, Kissimmee, FL 34744",Kissimmee,FL,34744,28.295620295415265,-81.4036344508442
+LabCorp112,LabCorp,"Labcorp, 1420 Celebration Blvd, Ste 301, Kissimmee, FL 34747",Kissimmee,FL,34747,28.31226799748953,-81.56284772009604
+LabCorp113,LabCorp,"Labcorp, 1068 Cypress Pkwy, Kissimmee, FL 34759",Kissimmee,FL,34759,28.14518555385828,-81.44529260142012
+LabCorp114,LabCorp,"Labcorp, 1151 Blackwood Ave, Ste 160, Ocoee, FL 34761",Ocoee,FL,34761,28.55314012638377,-81.53050041869903
+LabCorp115,LabCorp,"Labcorp, 4905 E Irlo Bronson Mem Hwy, Saint Cloud, FL 34771",Saint Cloud,FL,34771,28.24674957589325,-81.24315267477903
+LabCorp116,LabCorp,"Labcorp, 3340 Canoe Creek Rd, Saint Cloud, FL 34772",Saint Cloud,FL,34772,28.197462876999754,-81.29357091685442
+LabCorp117,LabCorp,"Labcorp, 9200 Conroy Windermere Rd, Windermere, FL 34786",Windermere,FL,34786,28.49297390646107,-81.51186060203094
+LabCorp118,LabCorp,"Labcorp, 3600 Winter Garden Vineland Rd, Winter Garden, FL 34787",Winter Garden,FL,34787,28.50535909414628,-81.58746103448627
+LabCorp119,LabCorp,"Labcorp, 1200 Binz St, Ste 140, Houston, TX 77004",Houston,TX,77004,29.724024267274523,-95.38780024299066
+LabCorp120,LabCorp,"Labcorp, 855 Frostwood Dr, Houston, TX 77024",Houston,TX,77024,29.77903208966566,-95.54885859644986
+LabCorp121,LabCorp,"Labcorp, 7207 Gessner Rd, Houston, TX 77040",Houston,TX,77040,29.874545623994152,-95.54234544769112
+LabCorp122,LabCorp,"Labcorp, 7900 Fannin St, Suite 2400, Houston, TX 77054",Houston,TX,77054,29.691575520667595,-95.40344223981924
+LabCorp123,LabCorp,"Labcorp, 7400 Fannin St, Ste 145, Houston, TX 77054",Houston,TX,77054,29.69445080099557,-95.40103305595932
+LabCorp124,LabCorp,"Labcorp, 8313 Southwest Fwy, Ste 201, Houston, TX 77074",Houston,TX,77074,29.688283654124263,-95.5278591301207
+LabCorp125,LabCorp,"Labcorp, 12121 Westheimer Rd, Ste 203, Houston, TX 77077",Houston,TX,77077,29.735407870549583,-95.59306871975323
+LabCorp126,LabCorp,"Labcorp, 5420 Dashwood Dr, Suite 205, Houston, TX 77081",Houston,TX,77081,29.70797589825576,-95.47509578535288
+LabCorp127,LabCorp,"Labcorp, 12121 Richmond Ave, Ste 423, Houston, TX 77082",Houston,TX,77082,29.729211052722828,-95.59375541737607
+LabCorp128,LabCorp,"Labcorp, 19002 Park Row, Ste 106, Houston, TX 77084",Houston,TX,77084,29.79000733119638,-95.70319097670811
+LabCorp129,LabCorp,"Labcorp, 21216 Northwest Fwy, POB I -Suite 200, Cypress, TX 77429",Cypress,TX,77429,29.925826477861246,-95.63268102346817
+LabCorp130,LabCorp,"Labcorp, 21212 Northwest Fwy, POB II - Suite 105, Cypress, TX 77429",Cypress,TX,77429,29.924974948948687,-95.6304769187628
+LabCorp131,LabCorp,"Labcorp, 21700 Kingsland Blvd, Ste 108, Katy, TX 77450",Katy,TX,77450,29.77569327540669,-95.74587215178924
+LabCorp132,LabCorp,"Labcorp, 1601 Main St, Ste 106, Richmond, TX 77469",Richmond,TX,77469,29.579179597620275,-95.77037104079542
+LabCorp133,LabCorp,"Labcorp, 1235 Lake Pointe Pkwy, Ste 102, Sugar Land, TX 77478",Sugar Land,TX,77478,29.60616946619266,-95.6209246990962
+LabCorp134,LabCorp,"Labcorp, 16545 Southwest Fwy, Ste 225, Sugar Land, TX 77479",Sugar Land,TX,77479,29.59112686947612,-95.62844890104006
+LabCorp135,LabCorp,"Labcorp, 1331 W Grand Pkwy N, Ste 160, Katy, TX 77493",Katy,TX,77493,29.79049483538012,-95.77862733995714
+LabCorp136,LabCorp,"Labcorp, 11507 S Highway 6, Suite A, Sugar Land, TX 77498",Sugar Land,TX,77498,29.651103205087864,-95.64959910642146
+LabCorp137,LabCorp,"Labcorp, 10970 Shadow Creek Pkwy, Ste 260, Pearland, TX 77584",Pearland,TX,77584,29.57717806004236,-95.38880185647793
+LabCorp138,LabCorp,"Labcorp, 1400 S Grand Ave, Ste 612, Los Angeles, CA 90015",Los Angeles,CA,90015,34.03687103643406,-118.26523385276889
+LabCorp139,LabCorp,"Labcorp, 10880 Wilshire Blvd. Suite 301, Los Angeles, CA 90024",Los Angeles,CA,90024,34.058840027560414,-118.44304138391148
+LabCorp140,LabCorp,"Labcorp, 10880 WILSHIRE BLVD. SUITE 301, LOS ANGELES, CA 90024",Los Angeles,CA,90024,34.05881561358016,-118.4430487414772
+LabCorp141,LabCorp,"Labcorp, 10309 SANTA MONICA BLVD, SUITE 350, LOS ANGELES, CA 90025",Los Angeles,CA,90025,34.05940102229955,-118.42202850228873
+LabCorp142,LabCorp,"Labcorp, 10309 Santa Monica Blvd, Suite 350, Los Angeles, CA 90025",Los Angeles,CA,90025,34.05946257421819,-118.42200433647184
+LabCorp143,LabCorp,"Labcorp, 1825 Cesar Chavez Avenue, Los Angeles, CA 90033",Los Angeles,CA,90033,34.0508509589469,-118.2155249032975
+LabCorp144,LabCorp,"Labcorp, 1825 CESAR CHAVEZ AVENUE, LOS ANGELES, CA 90033",Los Angeles,CA,90033,34.05069909968518,-118.21551661576063
+LabCorp145,LabCorp,"Labcorp, 2007 Wilshire Blvd, Ste 400, Los Angeles, CA 90057",Los Angeles,CA,90057,34.057739955985134,-118.27492802634114
+LabCorp146,LabCorp,"Labcorp, 12555 W.JEFFERSON BL.3RD FLOOR, LOS ANGELES, CA 90066",Los Angeles,CA,90066,33.97990553627936,-118.41304130753257
+LabCorp147,LabCorp,"Labcorp, 12555 W.Jefferson Bl.3rd Floor, Los Angeles, CA 90066",Los Angeles,CA,90066,33.979912728465855,-118.41303345620466
+LabCorp148,LabCorp,"Labcorp, 8920 Wilshire Blvd, Ste 520, Beverly Hills, CA 90211",Beverly Hills,CA,90211,34.06666587789417,-118.386270236848
+LabCorp149,LabCorp,"Labcorp, 3831 Hughes Ave, Ste 607, Culver City, CA 90232",Culver City,CA,90232,34.022289418385164,-118.39827729558904
+LabCorp150,LabCorp,"Labcorp, 390 N Pacific Coast Hwy, Suite 2080, El Segundo, CA 90245",El Segundo,CA,90245,33.92125436238042,-118.39484413710454
+LabCorp151,LabCorp,"Labcorp, 2400 N Sepulveda Blvd, Manhattan Beach, CA 90266",Manhattan Beach,CA,90266,33.89404010804705,-118.39558662280176
+LabCorp152,LabCorp,"Labcorp, 550 Deep Valley Dr, Ste 327, Palos Verdes Peninsula, CA 90274",Palos Verdes Peninsula,CA,90274,33.772577300483235,-118.37400011849552
+LabCorp153,LabCorp,"Labcorp, 510 N Prospect Ave, Ste 305, Redondo Beach, CA 90277",Redondo Beach,CA,90277,33.85257896218575,-118.37902547499483
+LabCorp154,LabCorp,"Labcorp, 3331 W Century Blvd, Inglewood, CA 90303",Inglewood,CA,90303,33.94586276833443,-118.33026448275976
+LabCorp155,LabCorp,"Labcorp, 1821 Wilshire Blvd, Ste 210, Santa Monica, CA 90403",Santa Monica,CA,90403,34.03060455623807,-118.48470819068464
+LabCorp156,LabCorp,"Labcorp, 1304 15th St, Ste 310, Santa Monica, CA 90404",Santa Monica,CA,90404,34.02582901333237,-118.4864263710884
+LabCorp157,LabCorp,"Labcorp, 2001 Santa Monica Blvd, Suite 765W, Santa Monica, CA 90404",Santa Monica,CA,90404,34.02912389007064,-118.48006866786532
+LabCorp158,LabCorp,"Labcorp, 2001 SANTA MONICA BLVD, SUITE 765W, SANTA MONICA, CA 90404",Santa Monica,CA,90404,34.029111802120795,-118.48006517677186
+LabCorp159,LabCorp,"Labcorp, 20911 Earl St, Ste 250, Torrance, CA 90503",Torrance,CA,90503,33.840490828498226,-118.35873853610084
+LabCorp160,LabCorp,"Labcorp, 3400 Lomita Blvd, Ste 208, Torrance, CA 90505",Torrance,CA,90505,33.81195343509776,-118.34558601311436
+LabCorp161,LabCorp,"Labcorp, 3440 Lomita Blvd, Ste 136, Torrance, CA 90505",Torrance,CA,90505,33.812733508913965,-118.34572526866056
+LabCorp162,LabCorp,"Labcorp, 23456 Hawthorne Blvd, Torrance, CA 90505",Torrance,CA,90505,33.81269485383967,-118.34927532699145
+LabCorp163,LabCorp,"Labcorp, 1510 S Central Ave, Ste 130, Glendale, CA 91204",Glendale,CA,91204,34.12709907683067,-118.25737286638864
+LabCorp164,LabCorp,"Labcorp, 1577 E Chevy Chase Dr, Suite 250, Glendale, CA 91206",Glendale,CA,91206,34.153650958595,-118.23009013204468
+LabCorp165,LabCorp,"Labcorp, 28240 Agoura Rd, Ste 204, Agoura Hills, CA 91301",Agoura Hills,CA,91301,34.14078920938388,-118.74249218665383
+LabCorp166,LabCorp,"Labcorp, 7345 MEDICAL CENTER DR, SUITE 520, WEST HILLS, CA 91307",West Hills,CA,91307,34.203190506093044,-118.6315825738577
+LabCorp167,LabCorp,"Labcorp, 7301 Medical Center Dr, Ste 304, West Hills, CA 91307",West Hills,CA,91307,34.20279223940369,-118.62981582285693
+LabCorp168,LabCorp,"Labcorp, 23928 Lyons Ave, Ste 104, Newhall, CA 91321",Newhall,CA,91321,34.37875140314245,-118.55319912172212
+LabCorp169,LabCorp,"Labcorp, 18541 Roscoe Blvd, Northridge, CA 91324",Northridge,CA,91324,34.221182601138985,-118.53755644562106
+LabCorp170,LabCorp,"Labcorp, 14901 Rinaldi St, Ste 204, Mission Hills, CA 91345",Mission Hills,CA,91345,34.27941475349633,-118.45744365313932
+LabCorp171,LabCorp,"Labcorp, 23929 McBean Pkwy, Ste 107, Valencia, CA 91355",Valencia,CA,91355,34.39604616733594,-118.55416329221232
+LabCorp172,LabCorp,"Labcorp, 23823 Valencia Blvd, Ste 150, Valencia, CA 91355",Valencia,CA,91355,34.4138873206177,-118.5525415422361
+LabCorp173,LabCorp,"Labcorp, 27875 Smyth Dr, Ste 102, Valencia, CA 91355",Valencia,CA,91355,34.440014618834695,-118.56814352044096
+LabCorp174,LabCorp,"Labcorp, 18399 Ventura Blvd, Ste 17, Tarzana, CA 91356",Tarzana,CA,91356,34.169090247555935,-118.53337646501636
+LabCorp175,LabCorp,"Labcorp, 425 Haaland Dr, Ste 106, Thousand Oaks, CA 91361",Thousand Oaks,CA,91361,34.17566361436896,-118.8699514887382
+LabCorp176,LabCorp,"Labcorp, 15211 Vanowen St, Ste 319, Van Nuys, CA 91405",Van Nuys,CA,91405,34.19454770743266,-118.46424178417055
+LabCorp177,LabCorp,"Labcorp, 2701 W Alameda Ave, Ste 203, Burbank, CA 91505",Burbank,CA,91505,34.15796375586393,-118.3305531777206
+LabCorp178,LabCorp,"Labcorp, 12555 Central Ave, Ste A, Chino, CA 91710",Chino,CA,91710,34.025235973812926,-117.68900331377291
+LabCorp179,LabCorp,"Labcorp, 420 W Rowland St, Covina, CA 91723",Covina,CA,91723,34.07848149146029,-117.89734302108756
+LabCorp180,LabCorp,"Labcorp, 10801 Foothill Blvd, Ste 104, Rancho Cucamonga, CA 91730",Rancho Cucamonga,CA,91730,34.105455695852754,-117.5698152060677
+LabCorp181,LabCorp,"Labcorp, 6400 Haven Ave, Rancho Cucamonga, CA 91737",Rancho Cucamonga,CA,91737,34.138262695775964,-117.5763767417534
+LabCorp182,LabCorp,"Labcorp, 210 S Grand Ave, Ste 324, Glendora, CA 91741",Glendora,CA,91741,34.13399073984024,-117.87185783213008
+LabCorp183,LabCorp,"Labcorp, 12574 Limonite Ave, Eastvale, CA 91752",Eastvale,CA,91752,33.97475297840634,-117.55776913599244
+LabCorp184,LabCorp,"Labcorp, 1900 Royalty Dr, Ste 230, Pomona, CA 91767",Pomona,CA,91767,34.077281373030395,-117.74575605517416
+LabCorp185,LabCorp,"Labcorp, 1335 Cypress St, Ste 101, San Dimas, CA 91773",San Dimas,CA,91773,34.096449028100984,-117.83412830935592
+LabCorp186,LabCorp,"Labcorp, 1310 San Bernardino Rd, Ste 107, Upland, CA 91786",Upland,CA,91786,34.10231409111025,-117.6336344786029
+LabCorp187,LabCorp,"Labcorp, 1241 W Foothill Blvd, Upland, CA 91786",Upland,CA,91786,34.10698675727247,-117.67080783145728
+LabCorp188,LabCorp,"Labcorp, 15391 Baseline Ave, Ste 102, Fontana, CA 92336",Fontana,CA,92336,34.12100532878264,-117.46926051561144
+LabCorp189,LabCorp,"Labcorp, 399 E Highland Ave, Ste 510, San Bernardino, CA 92404",San Bernardino,CA,92404,34.1399,-117.2953
+LabCorp190,LabCorp,"Labcorp, 10992 Magnolia Ave, Riverside, CA 92505",Riverside,CA,92505,33.90439018719809,-117.47367109800513
+LabCorp191,LabCorp,"Labcorp, 6600 Magnolia Ave, Riverside, CA 92506",Riverside,CA,92506,33.95299461260201,-117.3960919758303
+LabCorp192,LabCorp,"Labcorp, 6860 Brockton Ave, Ste 7, Riverside, CA 92506",Riverside,CA,92506,33.94903484713366,-117.39629100830048
+LabCorp193,LabCorp,"Labcorp, 1745 University Ave, Riverside, CA 92507",Riverside,CA,92507,33.976044235726484,-117.34960516272724
+LabCorp194,LabCorp,"Labcorp, 8917 Trautwein Rd, Riverside, CA 92508",Riverside,CA,92508,33.88885291025406,-117.32470953607248
+LabCorp195,LabCorp,"Labcorp, 39 Creek Rd, Suite 200, Building B, Irvine, CA 92604",Irvine,CA,92604,33.67499518638999,-117.79511361865109
+LabCorp196,LabCorp,"Labcorp, 4980 Barranca Pkwy, Ste 100, Irvine, CA 92604",Irvine,CA,92604,33.67598265613403,-117.79398861680308
+LabCorp197,LabCorp,"Labcorp, 113 Waterworks Way, Ste 160, Irvine, CA 92618",Irvine,CA,92618,33.66560992188846,-117.76301935913268
+LabCorp198,LabCorp,"Labcorp, 1640 Newport Blvd, Ste 250, Costa Mesa, CA 92627",Costa Mesa,CA,92627,33.634435081901444,-117.92154561705472
+LabCorp199,LabCorp,"Labcorp, 31852 Coast Hwy, Suite 405, Laguna Beach, CA 92651",Laguna Beach,CA,92651,33.50060996131137,-117.74176256309268
+LabCorp200,LabCorp,"Labcorp, 23961 Calle de la Magdalena, Suite 400, Laguna Hills, CA 92653",Laguna Hills,CA,92653,33.610443171746155,-117.70998081865312
+LabCorp201,LabCorp,"Labcorp, 1401 Avocado Ave, Ste 208, Newport Beach, CA 92660",Newport Beach,CA,92660,33.61271263277301,-117.87073190515916
+LabCorp202,LabCorp,"Labcorp, 360 San Miguel Dr, Suite 506, Newport Beach, CA 92660",Newport Beach,CA,92660,33.61352289188214,-117.87174343214669
+LabCorp203,LabCorp,"Labcorp, 500 Superior Ave, Suite 310, Newport Beach, CA 92663",Newport Beach,CA,92663,33.63005128075231,-117.92911761161164
+LabCorp204,LabCorp,"Labcorp, 361 Hospital Rd, Suite 222, Newport Beach, CA 92663",Newport Beach,CA,92663,33.62627556160456,-117.92957807550177
+LabCorp205,LabCorp,"Labcorp, 355 Placentia Ave, Suite 201, Newport Beach, CA 92663",Newport Beach,CA,92663,33.62658702298385,-117.93217648991308
+LabCorp206,LabCorp,"Labcorp, 675 Camino de los Mares, San Clemente, CA 92673",San Clemente,CA,92673,33.45735526208761,-117.64736772341767
+LabCorp207,LabCorp,"Labcorp, 25500 Rancho Niguel Rd, Suite 240, Laguna Niguel, CA 92677",Laguna Niguel,CA,92677,33.555595527455615,-117.68443083030076
+LabCorp208,LabCorp,"Labcorp, 22032 El Paseo, Ste 160, Rancho Santa Margarita, CA 92688",Rancho Santa Margarita,CA,92688,33.64273518290802,-117.59482435536982
+LabCorp209,LabCorp,"Labcorp, 27800 Medical Center Rd, Building 1, Suite 200, Mission Viejo, CA 92691",Mission Viejo,CA,92691,33.55993800495575,-117.66392361608986
+LabCorp210,LabCorp,"Labcorp, 26991 Crown Valley Pkwy, Ste B, Mission Viejo, CA 92691",Mission Viejo,CA,92691,33.56300065531086,-117.6652461609837
+LabCorp211,LabCorp,"Labcorp, 26691 Plaza, Ste 180, Mission Viejo, CA 92691",Mission Viejo,CA,92691,33.56554092978271,-117.66480673276524
+LabCorp212,LabCorp,"Labcorp, 26800 Crown Valley Pkwy, Suite 100, Mission Viejo, CA 92691",Mission Viejo,CA,92691,33.56262694791013,-117.66712116334116
+LabCorp213,LabCorp,"Labcorp, 26732 Crown Valley Pkwy, Ste 421, Mission Viejo, CA 92691",Mission Viejo,CA,92691,33.56288080870538,-117.66524284341968
+LabCorp214,LabCorp,"Labcorp, 1301 E 17th St, Santa Ana, CA 92705",Santa Ana,CA,92705,33.760713382831085,-117.85125214748376
+LabCorp215,LabCorp,"Labcorp, 100 N Tustin Ave, Tustin, CA 92780",Tustin,CA,92780,33.746309479584184,-117.83482155913008
+LabCorp216,LabCorp,"Labcorp, 1240 E Chapman Ave, Orange, CA 92866",Orange,CA,92866,33.78770499218459,-117.84032484748282
+LabCorp217,LabCorp,"Labcorp, 1140 W La Veta Ave, Suite 610, Orange, CA 92868",Orange,CA,92868,33.77922536084191,-117.86510769292032
+LabCorp218,LabCorp,"Labcorp, 705 W La Veta Ave, Ste 102, Orange, CA 92868",Orange,CA,92868,33.7811839388998,-117.86012823572712
+LabCorp219,LabCorp,"Labcorp, 2501 E Chapman Ave, #103, Orange, CA 92869",Orange,CA,92869,33.788688910866114,-117.82767132513877
+LabCorp220,LabCorp,"Labcorp, 120 W. Parkridge Avenue, Corona, CA 92880",Corona,CA,92880,33.89294296731136,-117.56432751048936
+LabCorp221,LabCorp,"Labcorp, 100 W Ontario Ave, Corona, CA 92882",Corona,CA,92882,33.85566530737159,-117.5700198104802
+LabCorp222,LabCorp,"Labcorp, 5051 Verdugo Way, Ste 130, Camarillo, CA 93012",Camarillo,CA,93012,34.2160277178716,-119.00293935178964
+LabCorp223,LabCorp,"Labcorp, 971 W 7th St, Oxnard, CA 93030",Oxnard,CA,93030,34.19589451231516,-119.18905101186168
+LabCorp224,LabCorp,"Labcorp, 300 S A St, Ste 103, Oxnard, CA 93030",Oxnard,CA,93030,34.20010077590646,-119.17844538662588
+LabCorp225,LabCorp,"Labcorp, 535 E Romie Ln, Ste 4, Salinas, CA 93901",Salinas,CA,93901,36.66011368451216,-121.64476704620051
+LabCorp226,LabCorp,"Labcorp, 559 E Alisal St, Ste 104, Salinas, CA 93905",Salinas,CA,93905,36.67430362661101,-121.63569901876282
+LabCorp227,LabCorp,"Labcorp, 1332 Natividad Rd, Suite A, Salinas, CA 93906",Salinas,CA,93906,36.6997934327952,-121.63443182280554
+LabCorp228,LabCorp,"Labcorp, 490 Post St, Ste 419, San Francisco, CA 94102",San Francisco,CA,94102,37.78843561335341,-122.40976590783234
+LabCorp229,LabCorp,"Labcorp, 2100 Webster St, Ste 420, San Francisco, CA 94115",San Francisco,CA,94115,37.79067130648211,-122.43216753370112
+LabCorp230,LabCorp,"Labcorp, 2233 Post St, Ste 105, San Francisco, CA 94115",San Francisco,CA,94115,37.78431847093821,-122.43862568273836
+LabCorp231,LabCorp,"Labcorp, 728 Pacific Ave, Ste 401, San Francisco, CA 94133",San Francisco,CA,94133,37.79692799909945,-122.40759577490658
+LabCorp232,LabCorp,"Labcorp, 1367 East Second Street, Benicia, CA 94510",Benicia,CA,94510,38.05428827451989,-122.15305885885944
+LabCorp233,LabCorp,"Labcorp, 2675 Pleasant Hill Rd, Pleasant Hill, CA 94523",Pleasant Hill,CA,94523,37.95493143725621,-122.09042484634035
+LabCorp234,LabCorp,"Labcorp, 3466 Mt Diablo Blvd, Ste C102, Lafayette, CA 94549",Lafayette,CA,94549,37.89302903665419,-122.115053645177
+LabCorp235,LabCorp,"Labcorp, 140 Brookwood Rd, Ste 102, Orinda, CA 94563",Orinda,CA,94563,37.87717417848841,-122.18145918929262
+LabCorp236,LabCorp,"Labcorp, 2160 Appian Way, Ste 205, Pinole, CA 94564",Pinole,CA,94564,37.99603067208072,-122.30255600570484
+LabCorp237,LabCorp,"Labcorp, 150 Glen Cove Marina Rd E, Ste, Vallejo, CA 94591",Vallejo,CA,94591,38.07050213040775,-122.21173770076184
+LabCorp238,LabCorp,"Labcorp, 3300 Webster St, Ste 107, Oakland, CA 94609",Oakland,CA,94609,37.821288467751344,-122.26205128393148
+LabCorp239,LabCorp,"Labcorp, 3100 Summit St, Oakland, CA 94609",Oakland,CA,94609,37.82017608797488,-122.26396310252896
+LabCorp240,LabCorp,"Labcorp, 400 30th St, Ste 10, Oakland, CA 94609",Oakland,CA,94609,37.81926794618478,-122.26481434275412
+LabCorp241,LabCorp,"Labcorp, 3100 San Pablo Ave, Berkeley, CA 94702",Berkeley,CA,94702,37.85046801437733,-122.28695649747054
+LabCorp242,LabCorp,"Labcorp, 2801 Adeline St, Berkeley, CA 94703",Berkeley,CA,94703,37.85796043084703,-122.26718315316124
+LabCorp243,LabCorp,"Labcorp, 3000 Colby St, Ste 100, Berkeley, CA 94705",Berkeley,CA,94705,37.85519228703049,-122.2580418558012
+LabCorp244,LabCorp,"Labcorp, 1228 Solano Ave, Albany, CA 94706",Albany,CA,94706,37.89038802976375,-122.29496423556428
+LabCorp245,LabCorp,"Labcorp, 13691 San Pablo Ave, San Pablo, CA 94806",San Pablo,CA,94806,37.95712142384512,-122.33847691492107
+LabCorp246,LabCorp,"Labcorp, 1321 S. Elisio Drive, Greenbrae, CA 94904",Greenbrae,CA,94904,37.9441983582164,-122.53678597656352
+LabCorp247,LabCorp,"Labcorp, 75 Rowland Way, Suite 125, Novato, CA 94945",Novato,CA,94945,38.09464306753919,-122.55946991560336
+LabCorp248,LabCorp,"Labcorp, 50 E Hamilton Ave, Ste 180, Campbell, CA 95008",Campbell,CA,95008,37.29397018528287,-121.94877479527835
+LabCorp249,LabCorp,"Labcorp, 272 Green Valley Rd, Freedom, CA 95019",Freedom,CA,95019,36.93843771588365,-121.7701645692357
+LabCorp250,LabCorp,"Labcorp, 8687 San Ysidro Ave, Gilroy, CA 95020",Gilroy,CA,95020,37.02632416609063,-121.56775797381616
+LabCorp251,LabCorp,"Labcorp, 600 Tres Pinos Rd, Hollister, CA 95023",Hollister,CA,95023,36.8402312821798,-121.39159592084
+LabCorp252,LabCorp,"Labcorp, 15151 National Ave. Suite 2A, Los Gatos, CA 95032",Los Gatos,CA,95032,37.24827543740665,-121.95109648784852
+LabCorp253,LabCorp,"Labcorp, 15251 National Ave, Suite 107, Los Gatos, CA 95032",Los Gatos,CA,95032,37.246378218436654,-121.9506234823052
+LabCorp254,LabCorp,"Labcorp, 777 Knowles Dr, Ste 4, Los Gatos, CA 95032",Los Gatos,CA,95032,37.26219171264064,-121.96854559581205
+LabCorp255,LabCorp,"Labcorp, 1505 Soquel Dr, Ste 3, Santa Cruz, CA 95065",Santa Cruz,CA,95065,36.98846347186388,-121.98504126631242
+LabCorp256,LabCorp,"Labcorp, 266 N Jackson Ave, Suite 6, San Jose, CA 95116",San Jose,CA,95116,37.36473728821876,-121.84895703700631
+LabCorp257,LabCorp,"Labcorp, 175 N Jackson Ave, Suite 103A, San Jose, CA 95116",San Jose,CA,95116,37.362044882695685,-121.84743043673706
+LabCorp258,LabCorp,"Labcorp, 6489 Camden Ave, Ste 107, San Jose, CA 95120",San Jose,CA,95120,37.22037855585162,-121.86420997435576
+LabCorp259,LabCorp,"Labcorp, 2060 Aborn Rd, Ste 200, San Jose, CA 95121",San Jose,CA,95121,37.311216402317264,-121.80717986450034
+LabCorp260,LabCorp,"Labcorp, 1675 Burdette Dr, Suite 40, San Jose, CA 95121",San Jose,CA,95121,37.32067385023006,-121.82511492299749
+LabCorp261,LabCorp,"Labcorp, 393 Blossom Hill Rd, Ste 350, San Jose, CA 95123",San Jose,CA,95123,37.25202531111495,-121.8270051624408
+LabCorp262,LabCorp,"Labcorp, 2577 Samaritan Dr, Ste 710, San Jose, CA 95124",San Jose,CA,95124,37.25297979651452,-121.94836813390528
+LabCorp263,LabCorp,"Labcorp, 54 N Bascom Ave, San Jose, CA 95128",San Jose,CA,95128,37.324458811741664,-121.93178274170266
+LabCorp264,LabCorp,"Labcorp, 2419 Forest Ave, San Jose, CA 95128",San Jose,CA,95128,37.32719542172013,-121.94717033446426
+LabCorp265,LabCorp,"30 New Crossing Rd, Reading, MA 01867, USA",Reading,MA,01867,42.51777488301249,-71.09525883648783
+Quest001,Quest,"Quest Diagnostics, 2001 Marcus Ave, Ste W98, New Hyde Park, NY 11042",New Hyde Park,NY,11042,40.7555133,-73.6898575
+Quest002,Quest,"Quest Diagnostics, 5418 La Palma Ave, La Palma, CA 90623",La Palma,CA,90623,33.8459614,-118.0385767
+Quest003,Quest,"Carbon Health, 10165 Valley View St, Cypress, CA 90630",Cypress,CA,90630,33.8147315,-118.0294993
+Quest004,Quest,"Xpress Urgent Care, 11741 Valley View St, Ste A, Cypress, CA 90630",Cypress,CA,90630,33.7924728,-118.0288238
+Quest005,Quest,"Carbon Health, 1040 W Imperial Hwy, Ste D, La Habra, CA 90631",La Habra,CA,90631,33.9169849,-117.9582559
+Quest006,Quest,"Akeso Occ Health, 15330 Valley View Ave, Ste 1, La Mirada, CA 90638",La Mirada,CA,90638,33.8919969,-118.0279541
+Quest007,Quest,"Xpress Urgent Care, 12860 Beach Blvd, Ste E, Stanton, CA 90680",Stanton,CA,90680,33.7744103,-117.9913345
+Quest008,Quest,"Carbon Health, 13299 South St, Cerritos, CA 90703",Cerritos,CA,90703,33.8591102,-118.0491417
+Quest009,Quest,"Quest Diagnostics, 2928 Westminster Ave, Seal Beach, CA 90740",Seal Beach,CA,90740,33.7590482,-118.080344
+Quest010,Quest,"Quest Diagnostics, 1760 Termino Ave, Ste 200, Long Beach, CA 90804",Long Beach,CA,90804,33.7895385,-118.1452744
+Quest011,Quest,"Quest Diagnostics, 5830 Downey Ave, Long Beach, CA 90805",Long Beach,CA,90805,33.8618486,-118.1508675
+Quest012,Quest,"Quest Diagnostics, 2880 Atlantic Ave, Ste 270, Long Beach, CA 90806",Long Beach,CA,90806,33.8093616,-118.1847213
+Quest013,Quest,"Quest Diagnostics, 3816 Woodruff Ave, Ste 306, Long Beach, CA 90808",Long Beach,CA,90808,33.8280996,-118.1154887
+Quest014,Quest,"Quest Diagnostics, 1043 Elm Ave, Ste 410, Long Beach, CA 90813",Long Beach,CA,90813,33.7796743,-118.1884171
+Quest015,Quest,"Quest Diagnostics, 65 N Madison Ave, Ste 305, Pasadena, CA 91101",Pasadena,CA,91101,34.14707569999999,-118.1386534
+Quest016,Quest,"Quest Diagnostics, 50 Bellefontaine St, Ste 101, Pasadena, CA 91105",Pasadena,CA,91105,34.1313817,-118.1517523
+Quest017,Quest,"Quest Diagnostics, 960 E Green St, Ste 164, Pasadena, CA 91106",Pasadena,CA,91106,34.1444679,-118.1300249
+Quest018,Quest,"AFC Urgent Care, 5825 Kanan Rd, Ste B, Agoura Hills, CA 91301",Agoura Hills,CA,91301,34.1560666,-118.7569256
+Quest019,Quest,"Quest Diagnostics, 29525 Canwood St, Ste 101, Agoura Hills, CA 91301",Agoura Hills,CA,91301,34.148139,-118.7673025
+Quest020,Quest,"Quest Diagnostics, 7345 Medical Center Dr, Ste 500, West Hills, CA 91307",West Hills,CA,91307,34.2032108,-118.6315441
+Quest021,Quest,"Quest Diagnostics, 7230 Medical Center Dr, Ste 605, West Hills, CA 91307",West Hills,CA,91307,34.2016729,-118.6289268
+Quest022,Quest,"Quest Diagnostics, 1000 Newbury Rd, Ste 125, Newbury Park, CA 91320",Newbury Park,CA,91320,34.182972,-118.9046353
+Quest023,Quest,"Quest Diagnostics, 18350 Roscoe Blvd, Ste 603, Northridge, CA 91325",Northridge,CA,91325,34.2202786,-118.5341409
+Quest024,Quest,"Quest Diagnostics, 18370 Burbank Blvd, Ste 108, Tarzana, CA 91356",Tarzana,CA,91356,34.17039159999999,-118.53302
+Quest025,Quest,"Quest Diagnostics, 5525 Etiwanda Ave, Ste 307, Tarzana, CA 91356",Tarzana,CA,91356,34.1707839,-118.5311431
+Quest026,Quest,"Carbon Health, 620 E Janss Rd, Thousand Oaks, CA 91360",Thousand Oaks,CA,91360,34.1991878,-118.8662185
+Quest027,Quest,"Quest Diagnostics, 77 Rolling Oaks Dr, Ste 120, Thousand Oaks, CA 91361",Thousand Oaks,CA,91361,34.1762705,-118.8752896
+Quest028,Quest,"Quest Diagnostics, 1220 La Venta Dr, Ste 201, Westlake Village, CA 91361",Westlake Village,CA,91361,34.1487809,-118.8221618
+Quest029,Quest,"Carbon Health, 21835 Ventura Blvd, Ste 21837, Woodland Hills, CA 91364",Woodland Hills,CA,91364,34.1695616,-118.6033119
+Quest030,Quest,"Carbon Health, 15840 Soquel Canyon Pkwy, Chino Hills, CA 91709",Chino Hills,CA,91709,33.9646578,-117.6928064
+Quest031,Quest,"Carbon Health, 11971 Central Ave, Ste B, Chino, CA 91710",Chino,CA,91710,34.0360502,-117.6891565
+Quest032,Quest,"Quest Diagnostics, 5562 Philadelphia St, Ste 206, Chino, CA 91710",Chino,CA,91710,34.0347921,-117.6836801
+Quest033,Quest,"Quest Diagnostics, 4028 Grand Ave, Ste B, Chino, CA 91710",Chino,CA,91710,33.9998315,-117.7161466
+Quest034,Quest,"Quest Diagnostics, 554 E San Bernardino Rd, Ste 103, Covina, CA 91723",Covina,CA,91723,34.0906363,-117.8799286
+Quest035,Quest,"Quest Diagnostics, 1330 W Covina Blvd, Ste 205, San Dimas, CA 91773",San Dimas,CA,91773,34.098358,-117.8337764
+Quest036,Quest,"Carbon Health, 6971 El Camino Real, Ste 101, Carlsbad, CA 92009",Carlsbad,CA,92009,33.104443,-117.267841
+Quest037,Quest,"Quest Diagnostics, 477 N El Camino Real, Ste B201, Encinitas, CA 92024",Encinitas,CA,92024,33.0573016,-117.2613655
+Quest038,Quest,"Carbon Health, 1855 S Centre City Pkwy, Ste 18858, Escondido, CA 92025",Escondido,CA,92025,33.10101960000001,-117.0754548
+Quest039,Quest,"Quest Diagnostics, 488 E Valley Pkwy, Ste 314, Escondido, CA 92025",Escondido,CA,92025,33.1256892,-117.0769718
+Quest040,Quest,"Quest Diagnostics, 521 E Elder St, Ste 201, Fallbrook, CA 92028",Fallbrook,CA,92028,33.379653,-117.246272
+Quest041,Quest,"Quest Diagnostics, 3601 Vista Way, Ste 104, Oceanside, CA 92056",Oceanside,CA,92056,33.1815345,-117.3108138
+Quest042,Quest,"Quest Diagnostics, 15725 Pomerado Rd, Ste 208, Poway, CA 92064",Poway,CA,92064,33.0002548,-117.0574862
+Quest043,Quest,"Quest Diagnostics, 9665 Mission Gorge Rd, Ste B2, Santee, CA 92071",Santee,CA,92071,32.8374185,-116.9863523
+Quest044,Quest,"Carbon Health, 109 S Las Posas Rd, Ste 100, San Marcos, CA 92078",San Marcos,CA,92078,33.1407449,-117.1923207
+Quest045,Quest,"Quest Diagnostics, 902 Sycamore Ave, Ste 201, Vista, CA 92081",Vista,CA,92081,33.1607122,-117.2194991
+Quest046,Quest,"Quest Diagnostics, 9333 Genesee Ave, Ste 180, San Diego, CA 92121",San Diego,CA,92121,32.8756896,-117.213356
+Quest047,Quest,"Sharp Rees-Stealy, 10243 Genetic Center Dr, San Diego, CA 92121",San Diego,CA,92121,32.9063181,-117.1807913
+Quest048,Quest,"Sharp Rees-Stealy, 16899 W Bernardo Dr, San Diego, CA 92127",San Diego,CA,92127,33.0216636,-117.0802748
+Quest049,Quest,"Quest Diagnostics, 78-271 State Hwy 111, La Quinta, CA 92253",La Quinta,CA,92253,33.7147701,-116.2979495
+Quest050,Quest,"Carbon Health, 78965 Highway 111, La Quinta, CA 92253",La Quinta,CA,92253,33.70859860000001,-116.2879865
+Quest051,Quest,"Quest Diagnostics, 73091 Country Club Dr, Ste A4, Palm Desert, CA 92260",Palm Desert,CA,92260,33.7570164,-116.3900197
+Quest052,Quest,"Quest Diagnostics, 555 E Tachevah Dr, Ste 102w, Palm Springs, CA 92262",Palm Springs,CA,92262,33.8372364,-116.5415633
+Quest053,Quest,"Total Care Work Injury Clinic, 72057 Highway 111, Rancho Mirage, CA 92270",Rancho Mirage,CA,92270,33.734615,-116.4077237
+Quest054,Quest,"Healthpointe, 290 N 10th St, Ste 100, Colton, CA 92324",Colton,CA,92324,34.0672117,-117.3206559
+Quest055,Quest,"Quest Diagnostics, 1057 N Mount Vernon Ave, Colton, CA 92324",Colton,CA,92324,34.075433,-117.3145089
+Quest056,Quest,"Quest Diagnostics, 25805 Barton Rd, Ste A-104, Loma Linda, CA 92354",Loma Linda,CA,92354,34.0476847,-117.2411401
+Quest057,Quest,"COMP, 295 E Caroline St, Ste D1, San Bernardino, CA 92408",San Bernardino,CA,92408,34.0602155,-117.2795332
+Quest058,Quest,"DOT Exam Professionals, 1894 Commercenter W, Ste 106, San Bernardino, CA 92408",San Bernardino,CA,92408,34.0673269,-117.287135
+Quest059,Quest,"Quest Diagnostics, 9041 Magnolia Ave, Ste 205, Riverside, CA 92503",Riverside,CA,92503,33.9255382,-117.4382497
+Quest060,Quest,"Akeso Occ Health, 3579 Arlington Ave, Ste 300, Riverside, CA 92506",Riverside,CA,92506,33.946513,-117.3916783
+Quest061,Quest,"Quest Diagnostics, 4646 Brockton Ave, Ste 102, Riverside, CA 92506",Riverside,CA,92506,33.9759603,-117.3856642
+Quest062,Quest,"Quest Diagnostics, 6926 Brockton Ave, Ste 2, Riverside, CA 92506",Riverside,CA,92506,33.9478819,-117.3964104
+Quest063,Quest,"COMP, 4300 Central Ave, Riverside, CA 92506",Riverside,CA,92506,33.9530331,-117.3989229
+Quest064,Quest,"Quest Diagnostics, 2711 Canyon Springs Pkwy, Ste 101, Riverside, CA 92507",Riverside,CA,92507,33.9401963,-117.2820307
+Quest065,Quest,"Quest Diagnostics, 32251 Mission Tri, Ste G1, Lake Elsinore, CA 92530",Lake Elsinore,CA,92530,33.6392361,-117.3851496
+Quest066,Quest,"DNA Services Unlimited, 910 N State St, Ste A2, Hemet, CA 92543",Hemet,CA,92543,33.7623919,-116.9711229
+Quest067,Quest,"Quest Diagnostics, 850 E Latham Ave, Ste 203-204, Hemet, CA 92543",Hemet,CA,92543,33.749668,-116.9638099
+Quest068,Quest,"Quest Diagnostics, 1850 W Florida Ave, Hemet, CA 92545",Hemet,CA,92545,33.7489688,-116.9918287
+Quest069,Quest,"Quest Diagnostics, 3853 W Stetson Ave, Ste 101, Hemet, CA 92545",Hemet,CA,92545,33.7282147,-117.0115007
+Quest070,Quest,"COMP, 13800 Heacock St, Ste C134, Moreno Valley, CA 92553",Moreno Valley,CA,92553,33.9196764,-117.242854
+Quest071,Quest,"Moreno Valley Urgent Care, 24318 Hemlock Ave, Ste E1, Moreno Valley, CA 92557",Moreno Valley,CA,92557,33.9423255,-117.23836
+Quest072,Quest,"Quest Diagnostics, 25405 Hancock Ave, Ste 102, Murrieta, CA 92562",Murrieta,CA,92562,33.5579377,-117.1854933
+Quest073,Quest,"Quest Diagnostics, 25460 Medical Center Dr, Ste 102, Murrieta, CA 92562",Murrieta,CA,92562,33.5574959,-117.1866021
+Quest074,Quest,"A Plus Urgent Care, 41880 Kalmia St, Ste 100, Murrieta, CA 92562",Murrieta,CA,92562,33.5568064,-117.2154788
+Quest075,Quest,"Quest Diagnostics, 33050 Antelope Rd, Ste 204, Murrieta, CA 92563",Murrieta,CA,92563,33.6398061,-117.1668231
+Quest076,Quest,"Quest Diagnostics, 1688 N Perris Blvd, Ste H1, Perris, CA 92571",Perris,CA,92571,33.8026987,-117.2298852
+Quest077,Quest,"Quest Diagnostics, 29798 Haun Rd, Ste 206, Menifee, CA 92586",Menifee,CA,92586,33.6881727,-117.1741128
+Quest078,Quest,"Quest Diagnostics, 28125 Bradley Rd, Ste 245, Sun City, CA 92586",Sun City,CA,92586,33.7129629,-117.1900263
+Quest079,Quest,"Quest Diagnostics, 28780 Single Oak Dr, Ste 275, Temecula, CA 92590",Temecula,CA,92590,33.4992748,-117.1612495
+Quest080,Quest,"Quest Diagnostics, 27699 Jefferson Ave, Ste 109, Temecula, CA 92590",Temecula,CA,92590,33.5141909,-117.1599645
+Quest081,Quest,"Quest Diagnostics, 4050 Barranca Pkwy, Ste 120, Irvine, CA 92604",Irvine,CA,92604,33.6817719,-117.8079394
+Quest082,Quest,"Quest Diagnostics, 4950 Barranca Pkwy, Ste 209, Irvine, CA 92604",Irvine,CA,92604,33.6753016,-117.7949146
+Quest083,Quest,"Quest Diagnostics, 26672 Portola Pkwy, Foothill Ranch, CA 92610",Foothill Ranch,CA,92610,33.6809907,-117.667777
+Quest084,Quest,"Quest Diagnostics, 15825 Laguna Canyon Rd, Ste 108, Irvine, CA 92618",Irvine,CA,92618,33.6645434,-117.7641189
+Quest085,Quest,"Carbon Health, 3195 Harbor Blvd, Ste 3, Costa Mesa, CA 92626",Costa Mesa,CA,92626,33.6867835,-117.9198447
+Quest086,Quest,"Quest Diagnostics, 1190 Baker St, Ste 104, Costa Mesa, CA 92626",Costa Mesa,CA,92626,33.6810079,-117.9071557
+Quest087,Quest,"Xpress Urgent Care, 131 E 17th St, Costa Mesa, CA 92627",Costa Mesa,CA,92627,33.6367539,-117.9211245
+Quest088,Quest,"Quest Diagnostics, 1640 Newport Blvd, Ste 310, Costa Mesa, CA 92627",Costa Mesa,CA,92627,33.6344959,-117.9216359
+Quest089,Quest,"Quest Diagnostics, 3 Monarch Bay Plz, Ste 108, Dana Point, CA 92629",Dana Point,CA,92629,33.4861197,-117.7257621
+Quest090,Quest,"Quest Diagnostics, 8891 Atlanta Ave, Huntington Beach, CA 92646",Huntington Beach,CA,92646,33.658227,-117.972784
+Quest091,Quest,"Quest Diagnostics, 17742 Beach Blvd, Ste 228, Huntington Beach, CA 92647",Huntington Beach,CA,92647,33.7045761,-117.9877288
+Quest092,Quest,"Quest Diagnostics, 18800 Main St, Ste 206, Huntington Beach, CA 92648",Huntington Beach,CA,92648,33.6885151,-117.9945626
+Quest093,Quest,"Quest Diagnostics, 19582 Beach Blvd, Ste 300, Huntington Beach, CA 92648",Huntington Beach,CA,92648,33.6782261,-117.9878137
+Quest094,Quest,"Quest Diagnostics, 23521 Paseo De Valencia, Ste 302C, Laguna Hills, CA 92653",Laguna Hills,CA,92653,33.6113733,-117.7116333
+Quest095,Quest,"Quest Diagnostics, 26671 Aliso Creek Rd, Ste 102, Aliso Viejo, CA 92656",Aliso Viejo,CA,92656,33.5773409,-117.7258987
+Quest096,Quest,"Quest Diagnostics, 1401 Avocado Ave, Ste 103, Newport Beach, CA 92660",Newport Beach,CA,92660,33.6124374,-117.8707786
+Quest097,Quest,"Newport Urgent Care, 1000 Bristol St N, Ste 1B, Newport Beach, CA 92660",Newport Beach,CA,92660,33.6578932,-117.8669546
+Quest098,Quest,"Quest Diagnostics, 355 Placentia Ave, Ste 204, Newport Beach, CA 92663",Newport Beach,CA,92663,33.6265585,-117.9321772
+Quest099,Quest,"Quest Diagnostics, 675 Camino De Los Mares, Ste 300, San Clemente, CA 92673",San Clemente,CA,92673,33.4573489,-117.6473313
+Quest100,Quest,"Quest Diagnostics, 1300 Avenida Vista Hermosa, Ste 160, San Clemente, CA 92673",San Clemente,CA,92673,33.458496,-117.5927037
+Quest101,Quest,"Quest Diagnostics, 30131 Town Center Dr, Ste 140, Laguna Niguel, CA 92677",Laguna Niguel,CA,92677,33.5256075,-117.7150297
+Quest102,Quest,"Quest Diagnostics, 22312 El Paseo, Ste H, Rancho Santa Margarita, CA 92688",Rancho Santa Margarita,CA,92688,33.6389013,-117.5931836
+Quest103,Quest,"Quest Diagnostics, 26732 Crown Valley Pkwy, Ste 521, Mission Viejo, CA 92691",Mission Viejo,CA,92691,33.5629983,-117.6651778
+Quest104,Quest,"Quest Diagnostics, 26800 Crown Valley Pkwy, Ste 480, Mission Viejo, CA 92691",Mission Viejo,CA,92691,33.5624393,-117.6671426
+Quest105,Quest,"AFC Urgent Care, 27522 Antonio Pkwy, Ste P3, Ladera Ranch, CA 92694",Ladera Ranch,CA,92694,33.5632282,-117.6289531
+Quest106,Quest,"Quest Diagnostics, 3650 S Bristol St, Santa Ana, CA 92704",Santa Ana,CA,92704,33.698369,-117.8867343
+Quest107,Quest,"Quest Diagnostics, 1220 Hemlock Way, Ste 101, Santa Ana, CA 92707",Santa Ana,CA,92707,33.70971919999999,-117.8845701
+Quest108,Quest,"Quest Diagnostics, 18785 Brookhurst St, Ste 103, Fountain Valley, CA 92708",Fountain Valley,CA,92708,33.6898403,-117.9546012
+Quest109,Quest,"Quest Diagnostics, 11180 E Warner Ave, Ste 159, Fountain Valley, CA 92708",Fountain Valley,CA,92708,33.7156244,-117.9333887
+Quest110,Quest,"Quest Diagnostics, 1120 W La Palma Ave, Ste 7, Anaheim, CA 92801",Anaheim,CA,92801,33.8467787,-117.9327617
+Quest111,Quest,"Integra Test, 2814 W Lincoln Ave, Anaheim, CA 92801",Anaheim,CA,92801,33.8314925,-117.9855328
+Quest112,Quest,"Quest Diagnostics, 2229 W Ball Rd, Ste C, Anaheim, CA 92804",Anaheim,CA,92804,33.8184808,-117.9607263
+Quest113,Quest,"E&J Medical Services, 333 S Magnolia St, Anaheim, CA 92804",Anaheim,CA,92804,33.827418,-117.976425
+Quest114,Quest,"AFC Urgent Care, 1711 W Katella Ave, Anaheim, CA 92804",Anaheim,CA,92804,33.8035759,-117.9418445
+Quest115,Quest,"Corrective Solutions, 3460 E Orangethorpe Ave, Ste B, Anaheim, CA 92806",Anaheim,CA,92806,33.8682089,-117.84678
+Quest116,Quest,"Quest Diagnostics, 500 S Anaheim Hills Rd, Ste 121, Anaheim, CA 92807",Anaheim,CA,92807,33.8432085,-117.7767799
+Quest117,Quest,"Quest Diagnostics, 2720 N Harbor Blvd, Ste 100, Fullerton, CA 92835",Fullerton,CA,92835,33.9009947,-117.9286575
+Quest118,Quest,"ProActive Work, 12828 Harbor Blvd, Ste 200, Garden Grove, CA 92840",Garden Grove,CA,92840,33.7765543,-117.9152933
+Quest119,Quest,"Corrective Solutions, 12371 Lewis St, Ste 101, Garden Grove, CA 92840",Garden Grove,CA,92840,33.7832769,-117.8983125
+Quest120,Quest,"Quest Diagnostics, 12665 Garden Grove Blvd, Ste 714, Garden Grove, CA 92843",Garden Grove,CA,92843,33.7747502,-117.912172
+Quest121,Quest,"E&J Medical Services, 1010 N Batavia St, Ste J, Orange, CA 92867",Orange,CA,92867,33.8046537,-117.8622249
+Quest122,Quest,"Fastest Labs, 1525 N Placentia Ave, Ste I, Placentia, CA 92870",Placentia,CA,92870,33.8916622,-117.8740257
+Quest123,Quest,"Carbon Health, 14117 Limonite Ave, Bldg 2 Ste 300, Eastvale, CA 92880",Eastvale,CA,92880,33.9757762,-117.5913513
+Quest124,Quest,"Quest Diagnostics, 6102 Orbis Way, Ste 510, Eastvale, CA 92880",Eastvale,CA,92880,33.9759667,-117.5890554
+Quest125,Quest,"Quest Diagnostics, 2250 S Main St, Ste 105, Corona, CA 92882",Corona,CA,92882,33.8551857,-117.5705912
+Quest126,Quest,"Quest Diagnostics, 308 W 6th St, Ste 201, Corona, CA 92882",Corona,CA,92882,33.874459,-117.5696867
+Quest127,Quest,"Carbon Health, 3955 Bedford Canyon Rd, Unit 103, Corona, CA 92883",Corona,CA,92883,33.8184538,-117.5205386
+Quest128,Quest,"Quest Diagnostics, 3801 Las Posas Rd, Ste 208, Camarillo, CA 93010",Camarillo,CA,93010,34.2421303,-119.019618
+Quest129,Quest,"Quest Diagnostics, 5800 Santa Rosa Rd, Ste 105, Camarillo, CA 93012",Camarillo,CA,93012,34.2252745,-118.9885051
+Quest130,Quest,"Carbon Health, 806 New Los Angeles Ave, Ste A1, Moorpark, CA 93021",Moorpark,CA,93021,34.27887400000001,-118.8665098
+Quest131,Quest,"Carbon Health, 2944 Tapo Canyon Rd, Ste A, Simi Valley, CA 93063",Simi Valley,CA,93063,34.287885,-118.7158177
+Quest132,Quest,"Quest Diagnostics, 2876 Sycamore Dr, Ste 200, Simi Valley, CA 93065",Simi Valley,CA,93065,34.2879413,-118.7431679
+Quest133,Quest,"Quest Diagnostics, 135 Macaw Ln, Ste 100, Simi Valley, CA 93065",Simi Valley,CA,93065,34.2599039,-118.7946577
+Quest134,Quest,"Quest Diagnostics, 1629 W Avenue J, Ste 102, Lancaster, CA 93534",Lancaster,CA,93534,34.6901172,-118.1593529
+Quest135,Quest,"Quest Diagnostics, 41230 11th St W, Ste D, Palmdale, CA 93551",Palmdale,CA,93551,34.6321523,-118.1496788
+Quest136,Quest,"Quest Diagnostics, 1090 E Stanley Blvd, Livermore, CA 94550",Livermore,CA,94550,37.6799701,-121.7832017
+Quest137,Quest,"Quest Diagnostics - Arlington, 22 Mill Street, Suite 107, Arlington, MA 02476-4738",Arlington,MA,02476,42.417831801021556,-71.15812542598148
+Quest138,Quest,"Quest Diagnostics - 20 Hope Ave, Ste 311, Waltham, MA 02453-2721",Waltham,MA,02453,42.36977151605555,-71.24806079161627
+Quest139,Quest,"Quest Diagnostics - Avon, 54 W Avon Rd, Ste 104, Avon, CT, 06001-3680",Avon,CT,06001,41.81354452452338,-72.8656559297594
+Quest140,Quest,"Quest Diagnostics - 100 Simsbury Rd Avon CT, 100 Simsbury Rd, Ste 210, Avon, CT 06001-3793",Avon,CT,06001,41.817321922452344,-72.82924820277499
+Quest141,Quest,"Quest Diagnostics - Unionville, 45 S Main St, Unionville, CT 06085-1278",Unionville,CT,06001,41.75633480146849,-72.88601525358973
+Quest142,Quest,"Quest Diagnostics - Farmington 2, 838D Farmington Ave, Farmington, CT 06032, United States",Farmington,CT,06001,41.72790398190262,-72.82637496493008
+Quest143,Quest,"970 Farmington Ave Suite 209, Second Floor, West Hartford, CT 06107, United States",West Hartford,CT,06001,41.76188283097116,-72.74360854026106
+Quest144,Quest,"Quest Diagnostics MA LLC - Mattapan, 1575 Blue Hill Ave, Mattapan, MA 02126-0000",Mattapan,MA,02126,42.269812697054164,-71.09407254897215
+Quest145,Quest,"Quest Diagnostics - Layton, 4852 S 6th St, Milwaukee, WI 53221-2462",Milwaukee,WI,53221,42.95684769202216,-87.91827301807575
+Quest146,Quest,"Quest Diagnostics - Mayfair, 2600 N Mayfair Rd, Ste 890, Wauwatosa, WI 53226-1309",Wauwatosa,WI,53226,43.06693434051614,-88.04686122945036
+Quest147,Quest,"Quest Diagnostics - Holy Family Methuen, 60 East St, Ste 1200, Methuen, MA 01844-4547",Methuen,MA,01844,42.72658459326845,-71.16634242053172
+Quest148,Quest,"Quest Diagnostics - Danvers, 180 Endicott Street, Danvers, MA 01923-0000",Danvers,MA,01923,42.547417229212314,-70.93991961034239
+Quest149,Quest,"Quest Diagnostics, 101 Amesbury St, Suite 204, Lawrence, MA 01840",Lawrence,MA,01840,42.708769,-71.163742
+Quest150,Quest,"Quest Diagnostics, 25 Marston Street, Suite 304, Lawrence, MA 01841",Lawrence,MA,01841,42.706943,-71.145573
+Quest151,Quest,"Quest Diagnostics, 380R Merrimack Street, Suite 102, Methuen, MA 01844",Methuen,MA,01844,42.748016,-71.129981
+Quest152,Quest,"Quest Diagnostics, 203 Turnpike St, Suite 300B, North Andover, MA 01845",North Andover,MA,01845,42.6737391,-71.1274446
+Quest153,Quest,"Quest Diagnostics, 8 Stiles Rd, Ste 111, Salem, NH 03079",Salem,NH,03079,42.7747186,-71.2504378
+Quest154,Quest,"Quest Diagnostics, 49 Atwood Road, Pelham, NH 03076",Pelham,NH,03076,42.7243,-71.3223
+Quest155,Quest,"Quest Diagnostics, 62 Brown St, Ste 202, Haverhill, MA 01830",Haverhill,MA,01830,42.7650514,-71.0449482
+Quest156,Quest,"Quest Diagnostics, 700 Rogers St, Lowell, MA 01852",Lowell,MA,01852,42.6307349,-71.2796519
+Quest157,Quest,"Quest Diagnostics - Melrose, 50 Tremont St, Ste 102, Melrose, MA 02176-2721",Melrose,MA,02176,42.4609568668302,-71.06981904358723
+Quest158,Quest,"Quest Diagnostics - Foxboro, 10 Commercial St, Job Lot Plaza, Foxboro, MA 02035-2509",Foxboro,MA,02035,42.05348940986595,-71.24039040684602
+Quest158,Quest,"Quest Diagnostics - Foxboro, 10 Commercial St, Job Lot Plaza, Foxboro, MA 02035-2509",Foxboro,MA,02035,42.05348940986595,-71.24039040684602
