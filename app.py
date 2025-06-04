@@ -301,7 +301,7 @@ def main():
                             st.write("Prefer selecting phlebs to consider them for this order(s)")
                         
                         # Process the assignments with the selected routing approach
-                        assignment_map, assigned_phlebs, assigned_patients, comparison_metrics = utils.process_city_assignments(
+                        assignment_map, assigned_phlebs, assigned_patients = utils.process_city_assignments(
                             st.session_state.trips_df,
                             phleb_df_to_consider,
                             st.session_state.workload_df,
@@ -388,13 +388,8 @@ def main():
             patients_count = len(st.session_state.assigned_patients)
             phlebs_count = len(st.session_state.assigned_phlebs)
             
-            # Get the correct total distance based on the approach used
-            if st.session_state.use_scheduled_time and 'comparison_metrics' in st.session_state:
-                total_distance = st.session_state.comparison_metrics['scheduled']['stats']['total_distance']
-            elif 'comparison_metrics' in st.session_state:
-                total_distance = st.session_state.comparison_metrics['optimized']['stats']['total_distance']
-            else:
-                total_distance = sum(st.session_state.assigned_phlebs["total_distance"])
+            # Calculate total distance from assigned phlebotomist routes
+            total_distance = sum(st.session_state.assigned_phlebs["total_distance"])
             
             # Only log assignment stats when they change
             stats_key = f"{patients_count}_{phlebs_count}_{total_distance:.2f}"
