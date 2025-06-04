@@ -38,6 +38,11 @@ from clustering_utils import (
     cluster_patients
 )
 
+from utils.enrichment_utils import enrich_patient_phlebotomist_fields
+from utils.backend_sync import sync_patients_to_backend
+import pandas as pd
+import os
+
 # Re-export all functions to maintain API compatibility
 __all__ = [
     # Route utilities
@@ -71,5 +76,21 @@ __all__ = [
     'get_cities_by_date',
     
     # Clustering utilities
-    'cluster_patients'
+    'cluster_patients',
+    'enrich_patient_phlebotomist_fields',
+    'sync_patients_to_backend',
+    'save_enriched_patients'
 ]
+
+
+def save_enriched_patients(enriched_df: pd.DataFrame, target_date, target_city) -> str:
+    """Save enriched patients dataframe to CSV and return the path."""
+    output_dir = os.path.join('GeneratedFiles')
+    os.makedirs(output_dir, exist_ok=True)
+    date_str = pd.to_datetime(target_date).strftime('%Y-%m-%d')
+    city_str = str(target_city).replace(' ', '')
+    filename = f'enriched_patients_{date_str}_{city_str}.csv'
+    path = os.path.join(output_dir, filename)
+    enriched_df.to_csv(path, index=False)
+    return os.path.relpath(path).replace('\\', '/')
+

@@ -337,6 +337,19 @@ def main():
                             print("LINE: 336\n", st.session_state.assigned_phlebs)
                             st.session_state.assigned_patients = assigned_patients
                             st.session_state.saved_files = saved_files
+                            # Enrich patient data with phlebotomist metadata
+                            enriched_patients = utils.enrich_patient_phlebotomist_fields(
+                                assigned_patients,
+                                st.session_state.phleb_df,
+                                log_file_path="logs/phleb_enrichment_fails.log"
+                            )
+                            enriched_csv = utils.save_enriched_patients(
+                                enriched_patients,
+                                selected_date,
+                                selected_city
+                            )
+                            st.session_state.enriched_patients = enriched_patients
+                            st.session_state.enriched_csv_path = enriched_csv
                             st.session_state.results_generated = True
                             # st.session_state.comparison_metrics = comparison_metrics
                             st.session_state.use_scheduled_time = use_scheduled_time
@@ -370,7 +383,7 @@ def main():
             
             # Display assignment statistics
             st.subheader("Assignment Statistics")
-            col1, col2, col3 = st.columns(3)
+            col1, col2, col3, col4 = st.columns(4)
             
             patients_count = len(st.session_state.assigned_patients)
             phlebs_count = len(st.session_state.assigned_phlebs)
@@ -508,9 +521,34 @@ def main():
                                 file_name=os.path.basename(patients_path),
                                 mime="text/csv"
                             )
-                    
+
+                    if 'enriched_csv_path' in st.session_state:
+                        with col4:
+                            enriched_path = st.session_state.enriched_csv_path
+                            with open(enriched_path, "rb") as file:
+                                st.download_button(
+                                    "Download Enriched Patients (CSV)",
+                                    file,
+                                    file_name=os.path.basename(enriched_path),
+                                    mime="text/csv"
+                                )
+
                     logger.info("Added download buttons for result files")
                     st.session_state.downloads_added = True
+
+            if 'enriched_patients' in st.session_state:
+                if st.button("✅ Verified"):
+                    success, msg = utils.sync_patients_to_backend(
+                        "http://localhost:8000/api/patients/bulk_update",
+                        st.session_state.enriched_patients
+                    )
+                    if success:
+                        st.success("Patients synced successfully")
+                    else:
+                        st.error(f"Failed to sync patients: {msg}")
+                        os.makedirs("logs", exist_ok=True)
+                        with open("logs/db_sync_errors.log", "a") as f:
+                            f.write(f"{datetime.now()}: {msg}\n")
 
 
 if __name__ == "__main__":
