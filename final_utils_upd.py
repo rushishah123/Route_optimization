@@ -84,13 +84,22 @@ __all__ = [
 
 
 def save_enriched_patients(enriched_df: pd.DataFrame, target_date, target_city) -> str:
-    """Save enriched patients dataframe to CSV and return the path."""
+    """Save enriched patients dataframe to CSV and return the path.
+
+    Assignment specific columns are removed before saving so that the
+    resulting CSV matches the original patient schema.
+    """
     output_dir = os.path.join('GeneratedFiles')
     os.makedirs(output_dir, exist_ok=True)
     date_str = pd.to_datetime(target_date).strftime('%Y-%m-%d')
     city_str = str(target_city).replace(' ', '')
     filename = f'enriched_patients_{date_str}_{city_str}.csv'
     path = os.path.join(output_dir, filename)
+    # Drop extra columns introduced during assignment
+    cols_to_drop = ["AssignedPhlebID", "TripOrderInDay", "PreferredTime"]
+    drop_existing = [c for c in cols_to_drop if c in enriched_df.columns]
+    enriched_df = enriched_df.drop(columns=drop_existing)
+
     enriched_df.to_csv(path, index=False)
     return os.path.relpath(path).replace('\\', '/')
 
