@@ -325,7 +325,8 @@ def main():
                                 assigned_patients,
                                 selected_date,
                                 selected_city,
-                                use_scheduled_time
+                                use_scheduled_time,
+                                phleb_df=st.session_state.phleb_df,
                             )
                             
                             logger.info(f"Saved assignment results to files: {saved_files}")

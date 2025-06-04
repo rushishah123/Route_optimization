@@ -1652,9 +1652,20 @@ def optimize_routes(assigned_phlebs, assigned_patients, use_scheduled_time=True,
     return updated_patients
 
 
-def save_assignment_results(assignment_map, assigned_phlebs, assigned_patients, target_date, target_city, use_scheduled_time=True):
+def save_assignment_results(
+    assignment_map,
+    assigned_phlebs,
+    assigned_patients,
+    target_date,
+    target_city,
+    use_scheduled_time=True,
+    *,
+    phleb_df=None,
+    log_file_path="logs/phleb_enrichment_fails.log",
+):
     """
-    Save the assignment results to files.
+    Save the assignment results to files.  Optionally enrich the patient
+    dataframe with phlebotomist metadata before saving.
     Args:
         assignment_map: Folium map object
         assigned_phlebs: DataFrame with assigned phlebotomists
@@ -1662,6 +1673,8 @@ def save_assignment_results(assignment_map, assigned_phlebs, assigned_patients, 
         target_date: Date of assignments
         target_city: City of assignments
         use_scheduled_time: Whether scheduled time was used for routing
+        phleb_df: DataFrame containing phlebotomist metadata for enrichment
+        log_file_path: Optional path for enrichment log file
     Returns:
         Dict with paths to saved files (relative to 'myproject')
     """
@@ -1721,13 +1734,29 @@ def save_assignment_results(assignment_map, assigned_phlebs, assigned_patients, 
         if not isinstance(assigned_patients, pd.DataFrame):
             assigned_patients = pd.DataFrame(assigned_patients)
 
+        # Optionally enrich with phlebotomist details
+        if phleb_df is not None:
+            try:
+                from utils.enrichment_utils import enrich_patient_phlebotomist_fields
+
+                assigned_patients = enrich_patient_phlebotomist_fields(
+                    assigned_patients,
+                    phleb_df,
+                    log_file_path=log_file_path,
+                )
+                logger.info("🔗 Patient records enriched with phlebotomist metadata")
+            except Exception as enr_err:
+                logger.error(f"❌ Failed to enrich patient records: {enr_err}")
+
         for col in assigned_patients.columns:
             assigned_patients[col] = assigned_patients[col].apply(
                 lambda x: ','.join(map(str, x)) if isinstance(x, (list, pd.Series)) else str(x)
             )
 
         assigned_patients.to_csv(patients_path_abs, index=False)
-        logger.info(f"🏥 Patient assignments saved to {patients_path_rel} with {len(assigned_patients)} patients")
+        logger.info(
+            f"🏥 Patient assignments saved to {patients_path_rel} with {len(assigned_patients)} patients"
+        )
 
     except Exception as e:
         logger.error(f"❌ Error processing patient assignments: {e}")

@@ -17,8 +17,8 @@ def main():
         trips_df = pd.read_csv("trips.csv")
         trips_df['ScheduledDtm'] = pd.to_datetime(trips_df['ScheduledDtm'])
         
-        # Load phlebotomist locations
-        phleb_df = pd.read_csv("unique_phleb_locations.csv")
+        # Load phlebotomist locations with city information
+        phleb_df = pd.read_csv("phlebotomists_with_city.csv")
         print("✅ Data loaded successfully.")
     except Exception as e:
         print(f"❌ Error loading data: {e}")
