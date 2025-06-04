@@ -116,4 +116,12 @@ def enrich_patient_phlebotomist_fields(
     drop_cols = [c for c in patients.columns if c.endswith("_phleb")]
     patients = patients.drop(columns=drop_cols, errors="ignore")
 
+    # Remove assignment specific columns to retain original schema
+    extraneous_cols = [
+        "AssignedPhlebID",
+        "TripOrderInDay",
+        "PreferredTime",
+    ]
+    patients = patients.drop(columns=[c for c in extraneous_cols if c in patients.columns])
+
     return patients
