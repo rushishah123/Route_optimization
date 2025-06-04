@@ -15,9 +15,17 @@ phleb_id_col = "PhlebotomistID.1" if "PhlebotomistID.1" in df.columns else "Phle
 # Get unique phlebotomists with their first recorded location
 unique_phlebs = df.groupby(phleb_id_col).first().reset_index()
 
-# Select relevant columns
-unique_phleb_locations = unique_phlebs[[phleb_id_col, "PhlebotomistName", "PhlebotomistLatitude", "PhlebotomistLongitude"]]
+# Include city information so downstream applications have full context
+unique_phleb_locations = unique_phlebs[
+    [
+        phleb_id_col,
+        "PhlebotomistName",
+        "PhlebotomistLatitude",
+        "PhlebotomistLongitude",
+        "City",
+    ]
+]
 
-# Save as CSV
-unique_phleb_locations.to_csv("unique_phleb_locations.csv", index=False)
-print("✅ Unique phlebotomist locations saved as unique_phleb_locations.csv")
+# Save as CSV using the expected filename
+unique_phleb_locations.to_csv("phlebotomists_with_city.csv", index=False)
+print("✅ Unique phlebotomist locations saved as phlebotomists_with_city.csv")
