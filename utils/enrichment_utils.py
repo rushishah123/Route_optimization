@@ -2,7 +2,6 @@ import pandas as pd
 import logging
 import os
 import re
-from typing import Tuple
 
 
 def enrich_patient_phlebotomist_fields(
@@ -32,75 +31,89 @@ def enrich_patient_phlebotomist_fields(
     """
     os.makedirs(os.path.dirname(log_file_path), exist_ok=True)
     logger = logging.getLogger(__name__)
-    if not any(isinstance(h, logging.FileHandler) and h.baseFilename == os.path.abspath(log_file_path)
-               for h in logger.handlers):
+    if not any(
+        isinstance(h, logging.FileHandler) and h.baseFilename == os.path.abspath(log_file_path)
+        for h in logger.handlers
+    ):
         handler = logging.FileHandler(log_file_path)
-        formatter = logging.Formatter('%(asctime)s %(message)s')
+        formatter = logging.Formatter("%(asctime)s %(message)s")
         handler.setFormatter(formatter)
         logger.addHandler(handler)
     logger.setLevel(logging.INFO)
 
     patients = patient_df.copy()
 
-    # prepare phlebotomist dataframe for merge
+    # Prepare phlebotomist dataframe for merge
     phleb_merge = phleb_df.copy()
-    phleb_merge['AssignedPhlebID'] = phleb_merge['PhlebotomistID.1'].astype(str)
-    phleb_merge = phleb_merge.rename(columns={
-        'PhlebotomistID.1': 'PhlebotomistID',
-        'PhlebotomistName': 'PhlebotomistName_src',
-        'City': 'PhlebotmistCity'
-    })
+    phleb_merge = phleb_merge.rename(
+        columns={
+            "PhlebotomistID.1": "PhlebotomistID",
+            "City": "PhlebotmistCity",
+        }
+    )
+    phleb_merge["AssignedPhlebID"] = phleb_merge["PhlebotomistID"].astype(str)
 
-    merge_cols = [
-        'AssignedPhlebID',
-        'PhlebotomistID',
-        'PhlebotomistName_src',
-        'PhlebotmistCity',
-        'PhlebotomistLatitude',
-        'PhlebotomistLongitude'
+    # Determine which target fields exist on the patient dataframe
+    target_fields = [
+        "PhlebotomistID",
+        "PhlebotomistName",
+        "PhlebotmistCity",
+        "PhlebotomistLatitude",
+        "PhlebotomistLongitude",
+        "PhlebotomistStreet1",
+        "PhlebotomistZip",
+        "DropOffLocation",
     ]
+    existing_fields = [c for c in target_fields if c in patients.columns]
 
-    optional_cols = ['PhlebotomistStreet1', 'PhlebotomistZip', 'DropOffLocation']
-    for col in optional_cols:
-        if col in phleb_merge.columns and col not in merge_cols:
+    # Merge only columns present in both dataframes
+    merge_cols = ["AssignedPhlebID"]
+    for col in existing_fields:
+        if col in phleb_merge.columns:
             merge_cols.append(col)
+    patients = patients.merge(
+        phleb_merge[merge_cols],
+        on="AssignedPhlebID",
+        how="left",
+        suffixes=("", "_phleb"),
+    )
 
-    patients = patients.merge(phleb_merge[merge_cols], on='AssignedPhlebID', how='left', suffixes=('', '_phleb'))
-
-    def valid_name(name: str) -> bool:
-        return bool(re.fullmatch(r'[A-Za-z0-9\s]+', str(name)))
-
-    duplicate_names = phleb_merge['PhlebotomistName_src'].value_counts()
+    # Validation helpers for name field
+    valid_name_regex = re.compile(r"^[a-zA-Z\s]+$")
+    duplicate_names = (
+        phleb_merge["PhlebotomistName"].value_counts()
+        if "PhlebotomistName" in phleb_merge.columns
+        else pd.Series()
+    )
     duplicate_names = set(duplicate_names[duplicate_names > 1].index)
 
-    # Field mapping of patient column -> phleb merge column
-    field_map = {
-        'PhlebotomistID': 'PhlebotomistID',
-        'PhlebotomistName': 'PhlebotomistName_src',
-        'PhlebotmistCity': 'PhlebotmistCity',
-        'PhlebotomistLatitude': 'PhlebotomistLatitude',
-        'PhlebotomistLongitude': 'PhlebotomistLongitude',
-        'PhlebotomistStreet1': 'PhlebotomistStreet1',
-        'PhlebotomistZip': 'PhlebotomistZip',
-        'DropOffLocation': 'DropOffLocation'
-    }
-
-    for patient_col, phleb_col in field_map.items():
-        if patient_col not in patients.columns or phleb_col not in patients.columns:
+    for col in existing_fields:
+        col_phleb = f"{col}_phleb"
+        if col_phleb not in patients.columns:
             continue
-        if patient_col == 'PhlebotomistName':
-            mask = patients[patient_col].isna()
-            name_candidates = patients.loc[mask, phleb_col]
-            valid_mask = name_candidates.apply(lambda x: valid_name(x) and x not in duplicate_names)
-            invalid = patients.loc[mask & ~valid_mask, ['AssignedPhlebID', phleb_col]]
-            for _, row in invalid.iterrows():
-                logger.info(f"Skipped name for PhlebID {row['AssignedPhlebID']} -> {row[phleb_col]}")
-            patients.loc[mask & valid_mask, patient_col] = name_candidates[valid_mask]
+        mask = patients[col].isna()
+        if col == "PhlebotomistName":
+            name_vals = patients.loc[mask, col_phleb]
+            valid_mask = name_vals.apply(
+                lambda x: bool(valid_name_regex.fullmatch(str(x))) and x not in duplicate_names
+            )
+            invalid_rows = patients.loc[mask & ~valid_mask, ["AssignedPhlebID", col_phleb]]
+            for _, row in invalid_rows.iterrows():
+                logger.info(
+                    f"Skipped name for PhlebID {row['AssignedPhlebID']} -> {row[col_phleb]}"
+                )
+            patients.loc[mask & valid_mask, col] = name_vals[valid_mask]
         else:
-            mask = patients[patient_col].isna()
-            patients.loc[mask, patient_col] = patients.loc[mask, phleb_col]
+            patients.loc[mask, col] = patients.loc[mask, col_phleb]
 
-    # Drop the extra merged columns created during the merge
-    patients = patients.drop(columns=[c for c in patients.columns if c.endswith('_phleb')])
+    # Log rows where enrichment failed for any existing target column
+    if existing_fields:
+        failed_mask = patients[existing_fields].isna().any(axis=1)
+        for _, row in patients.loc[failed_mask].iterrows():
+            logger.info(f"Failed enrichment for row: {row.to_dict()}")
+
+    # Drop helper columns
+    drop_cols = [c for c in patients.columns if c.endswith("_phleb")]
+    patients = patients.drop(columns=drop_cols, errors="ignore")
 
     return patients
