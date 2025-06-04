@@ -36,7 +36,7 @@ st.set_page_config(
 def main():
     st.title("Phlebotomist Assignment & Route Optimizer")
     
-    trips_path = "trip0804.csv"
+    trips_path = "patient_geocoded_data_202506041041.csv"
     phlebs_path = "phlebotomists_with_city.csv"
     workload_path = "avg_workload_per_city_per_phleb.csv"
     
